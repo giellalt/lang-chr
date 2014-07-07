@@ -19,8 +19,8 @@
 
 #! @param GT_TRANSCRIPTIONS_SRCS required, the source files for orthographic
 #!        transcriptions.
-GT_TRANSCRIPTIONS_SRCS=clock.lexc date.lexc numbers.lexc
+#GT_TRANSCRIPTIONS_SRCS=clock.lexc date.lexc numbers.lexc
 
-include $(top_srcdir)/am-shared/src-transcriptions-dir-include.am
+#include $(top_srcdir)/am-shared/src-transcriptions-dir-include.am
 
 # vim: set ft=automake:
