@@ -3,16 +3,16 @@
 ## Licence: GPL v3+
 
 # set this to name of cg3 dependency rules
-GT_DEPENDENCY=dependency.cg3
+# GT_DEPENDENCY=dependency.cg3
 
 # set this to name of cg3 dependency rules
-GT_FUNCTIONS=functions.cg3
+# GT_FUNCTIONS=functions.cg3
 
 # set this to name of cg3 disambiguation rules
-GT_DISAMBIGUATION=disambiguation.cg3
+# GT_DISAMBIGUATION=disambiguation.cg3
 
 # set this to names of cg3 binaries 
-GT_CG_TARGETS=disambiguation.bin functions.bin dependency.bin
+# GT_CG_TARGETS=disambiguation.bin functions.bin dependency.bin
 
 ##################################################################
 #### BEGIN: Add local processing instructions BELOW this line ####
