@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+datadir=@datarootdir@
+gtlang=chr
+dir=${datadir}/giella/${gtlang}
+srcdir=${datadir}/giella/${gtlang}
+
+Name: giella-chr
+Description: Finite-state language processing tools for Cherokee
+URL: http://giellatekno.uit.no/doc/index.html
+Version: @VERSION@
