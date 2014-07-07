@@ -4,7 +4,11 @@
 
 ! vim: set ft=xfst-lexc:
 
-LEXICON Prefixes_Int1
+LEXICON VerbPrefixes
+Verb_Prefixes_Int1 ;
+Verb_Prefixes_Int2 ;
+
+LEXICON Verb_Prefixes_Int1
 +V+1sg:Ꮵ Stems_Present_Int1 ;
 +V+1sg:Ꮵ Stems_Habitual_Int1 ;
 +V+1sg:ᏓᏥ Stems_Future_Int1 ;
@@ -96,7 +100,7 @@ LEXICON Prefixes_Int1
 +V+3pl:ᏩᏂ Stems_PresImp_Int1 ;
 +V+3pl:ᎤᏂ Stems_Infinitive_Int1 ;
 
-LEXICON Prefixes_Int2
+LEXICON Verb_Prefixes_Int2
 +V+1sg:Ꮵ Stems_Present_Int2 ;
 +V+1sg:Ꮵ Stems_Habitual_Int2 ;
 +V+1sg:ᏓᏥ Stems_Future_Int2 ;
