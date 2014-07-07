@@ -300,11 +300,11 @@ LEXICON Suffix_PresImp_da
 LEXICON Suffix_PresImp_na
 +V+PresImp:Ꮎ  PersonFeatures ;
 
-LEXICON Suffix_ImmPast_ga
-+V+ImmPast:Ꭶ  PersonFeatures ;
+! LEXICON Suffix_ImmPast_ga
+! +V+ImmPast:Ꭶ  PersonFeatures ;
 
-LEXICON Suffix_ImmPast_hi
-+V+ImmPast:Ꭿ  PersonFeatures ;
+! LEXICON Suffix_ImmPast_hi
+! +V+ImmPast:Ꭿ  PersonFeatures ;
 
 LEXICON Suffix_Infinitive_sdi
 +V+Inf:ᏍᏗ  PersonFeatures ;
