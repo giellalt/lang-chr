@@ -16,13 +16,13 @@
 !                Cherokee morphological analyser                      
 ! ========================================================================== !
 
-!! This file shows the Haida multichar symbols and initial lexica.
+!! This file shows the Cherokee multichar symbols and initial lexica.
 
 Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! !!Analysis symbols
 !! ----------------
-!! The morphological analyses of wordforms of Northern Haida are presented
+!! The morphological analyses of wordforms of Cherokee are presented
 !! in this system in terms of following symbols.
 
 !! (It is highly suggested to follow existing standards when adding new tags).
@@ -129,9 +129,8 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 
 LEXICON Root
-!! The word forms in Haida start from the lexeme roots of basic
+!! The word forms in Cherokee start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-!   Prefixes    ;
 !   Nouns   ;
   VerbPrefixes   ;    !!= * @CODE@ 
 !   Adjectives  ;
