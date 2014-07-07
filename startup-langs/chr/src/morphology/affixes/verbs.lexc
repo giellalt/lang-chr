@@ -9,306 +9,318 @@ Verb_Prefixes_Int1 ;
 Verb_Prefixes_Int2 ;
 
 LEXICON Verb_Prefixes_Int1
-+V+1sg:Ꮵ Stems_Present_Int1 ;
-+V+1sg:Ꮵ Stems_Habitual_Int1 ;
-+V+1sg:ᏓᏥ Stems_Future_Int1 ;
-+V+1sg:Ꮵ Stems_FutImp_Int1 ;
-+V+1sg:ᎠᎩ Stems_RemPast_Int1 ;
-+V+1sg:ᎠᎩ Stems_RepPast_Int1 ;
-+V+1sg:Ꮵ Stems_ImmPast_Int1 ;
-+V+1sg:Ꮵ Stems_PresImp_Int1 ;
-+V+1sg:ᎠᎩ Stems_Infinitive_Int1 ;
-+V+2sg:Ꭿ Stems_Present_Int1 ;
-+V+2sg:Ꭿ Stems_Habitual_Int1 ;
-+V+2sg:Ꮨ Stems_Future_Int1 ;
-+V+2sg:Ꭿ Stems_FutImp_Int1 ;
-+V+2sg:Ꮳ Stems_RemPast_Int1 ;
-+V+2sg:Ꮳ Stems_RepPast_Int1 ;
-+V+2sg:Ꭿ Stems_ImmPast_Int1 ;
-+V+2sg:Ꭿ Stems_PresImp_Int1 ;
-+V+2sg:Ꮳ Stems_Infinitive_Int1 ;
-+V+3sg:Ꭶ Stems_Present_Int1 ;
-+V+3sg:Ꭶ Stems_Habitual_Int1 ;
-+V+3sg:ᏓᎦ Stems_Future_Int1 ;
-+V+3sg:Ꭶ Stems_FutImp_Int1 ;
-+V+3sg:Ꭴ Stems_RemPast_Int1 ;
-+V+3sg:Ꭴ Stems_RepPast_Int1 ;
-+V+3sg:Ꭶ Stems_ImmPast_Int1 ;
-+V+3sg:ᏫᎦ Stems_PresImp_Int1 ;
-+V+3sg:Ꭴ Stems_Infinitive_Int1 ;
-+V+Idl:ᎢᏂ Stems_Present_Int1 ;
-+V+Idl:ᎢᏂ Stems_Habitual_Int1 ;
-+V+Idl:ᏓᏂ Stems_Future_Int1 ;
-+V+Idl:ᎢᏂ Stems_FutImp_Int1 ;
-+V+Idl:ᎩᏂ Stems_RemPast_Int1 ;
-+V+Idl:ᎩᏂ Stems_RepPast_Int1 ;
-+V+Idl:ᎢᏂ Stems_ImmPast_Int1 ;
-+V+Idl:ᎢᏂ Stems_PresImp_Int1 ;
-+V+Idl:ᎩᏂ Stems_Infinitive_Int1 ;
-+V+Edl:ᎣᏍᏗ Stems_Present_Int1 ;
-+V+Edl:ᎣᏍᏗ Stems_Habitual_Int1 ;
-+V+Edl:ᏓᏲᏍᏗ Stems_Future_Int1 ;
-+V+Edl:ᎣᏍᏗ Stems_FutImp_Int1 ;
-+V+Edl:ᎣᎩᏂ Stems_RemPast_Int1 ;
-+V+Edl:ᎣᎩᏂ Stems_RepPast_Int1 ;
-+V+Edl:ᎣᏍᏗ Stems_ImmPast_Int1 ;
-+V+Edl:ᏬᏍᏗ Stems_PresImp_Int1 ;
-+V+Edl:ᎣᎩᏂ Stems_Infinitive_Int1 ;
-+V+2dl:ᏍᏗ Stems_Present_Int1 ;
-+V+2dl:ᏍᏗ Stems_Habitual_Int1 ;
-+V+2dl:ᏓᏍᏗ Stems_Future_Int1 ;
-+V+2dl:ᏍᏗ Stems_FutImp_Int1 ;
-+V+2dl:ᏍᏗ Stems_RemPast_Int1 ;
-+V+2dl:ᏍᏗ Stems_RepPast_Int1 ;
-+V+2dl:ᏍᏗ Stems_ImmPast_Int1 ;
-+V+2dl:ᏍᏗ Stems_PresImp_Int1 ;
-+V+2dl:ᏍᏗ Stems_Infinitive_Int1 ;
-+V+Ipl:ᎢᏗ Stems_Present_Int1 ;
-+V+Ipl:ᎢᏗ Stems_Habitual_Int1 ;
-+V+Ipl:ᏓᏗ Stems_Future_Int1 ;
-+V+Ipl:ᎢᏗ Stems_FutImp_Int1 ;
-+V+Ipl:ᎢᎩ Stems_RemPast_Int1 ;
-+V+Ipl:ᎢᎩ Stems_RepPast_Int1 ;
-+V+Ipl:ᎢᏗ Stems_ImmPast_Int1 ;
-+V+Ipl:ᎢᏗ Stems_PresImp_Int1 ;
-+V+Ipl:ᎢᎩ Stems_Infinitive_Int1 ;
-+V+Epl:ᎣᏥ Stems_Present_Int1 ;
-+V+Epl:ᎣᏥ Stems_Habitual_Int1 ;
-+V+Epl:ᏓᏲᏥ Stems_Future_Int1 ;
-+V+Epl:ᎣᏥ Stems_FutImp_Int1 ;
-+V+Epl:ᎣᎩ Stems_RemPast_Int1 ;
-+V+Epl:ᎣᎩ Stems_RepPast_Int1 ;
-+V+Epl:ᎣᏥ Stems_ImmPast_Int1 ;
-+V+Epl:ᏬᏥ Stems_PresImp_Int1 ;
-+V+Epl:ᎣᎩ Stems_Infinitive_Int1 ;
-+V+2pl:ᎢᏥ Stems_Present_Int1 ;
-+V+2pl:ᎢᏥ Stems_Habitual_Int1 ;
-+V+2pl:ᏓᏥ Stems_Future_Int1 ;
-+V+2pl:ᎢᏥ Stems_FutImp_Int1 ;
-+V+2pl:ᎢᏥ Stems_RemPast_Int1 ;
-+V+2pl:ᎢᏥ Stems_RepPast_Int1 ;
-+V+2pl:ᎢᏥ Stems_ImmPast_Int1 ;
-+V+2pl:ᎢᏥ Stems_PresImp_Int1 ;
-+V+2pl:ᎢᏥ Stems_Infinitive_Int1 ;
-+V+3pl:ᎠᏂ Stems_Present_Int1 ;
-+V+3pl:ᎠᏂ Stems_Habitual_Int1 ;
-+V+3pl:ᏛᏂ Stems_Future_Int1 ;
-+V+3pl:ᎠᏂ Stems_FutImp_Int1 ;
-+V+3pl:ᎤᏂ Stems_RemPast_Int1 ;
-+V+3pl:ᎤᏂ Stems_RepPast_Int1 ;
-+V+3pl:ᎠᏂ Stems_ImmPast_Int1 ;
-+V+3pl:ᏩᏂ Stems_PresImp_Int1 ;
-+V+3pl:ᎤᏂ Stems_Infinitive_Int1 ;
+< 0:Ꮵ "@U.prefix.1sg@" > Stems_Present_Int1 ;
+< 0:Ꮵ "@U.prefix.1sg@" > Stems_Habitual_Int1 ;
+< 0:Ꮣ 0:Ꮵ "@U.prefix.1sg@" > Stems_Future_Int1 ;
+< 0:Ꮵ "@U.prefix.1sg@" > Stems_FutImp_Int1 ;
+< 0:Ꭰ 0:Ꭹ "@U.prefix.1sg@" > Stems_RemPast_Int1 ;
+< 0:Ꭰ 0:Ꭹ "@U.prefix.1sg@" > Stems_RepPast_Int1 ;
+< 0:Ꮵ "@U.prefix.1sg@" > Stems_ImmPast_Int1 ;
+< 0:Ꮵ "@U.prefix.1sg@" > Stems_PresImp_Int1 ;
+< 0:Ꭰ 0:Ꭹ "@U.prefix.1sg@" > Stems_Infinitive_Int1 ;
+< 0:Ꭿ "@U.prefix.2sg@" > Stems_Present_Int1 ;
+< 0:Ꭿ "@U.prefix.2sg@" > Stems_Habitual_Int1 ;
+< 0:Ꮨ "@U.prefix.2sg@" > Stems_Future_Int1 ;
+< 0:Ꭿ "@U.prefix.2sg@" > Stems_FutImp_Int1 ;
+< 0:Ꮳ "@U.prefix.2sg@" > Stems_RemPast_Int1 ;
+< 0:Ꮳ "@U.prefix.2sg@" > Stems_RepPast_Int1 ;
+< 0:Ꭿ "@U.prefix.2sg@" > Stems_ImmPast_Int1 ;
+< 0:Ꭿ "@U.prefix.2sg@" > Stems_PresImp_Int1 ;
+< 0:Ꮳ "@U.prefix.2sg@" > Stems_Infinitive_Int1 ;
+< 0:Ꭶ "@U.prefix.3sg@" > Stems_Present_Int1 ;
+< 0:Ꭶ "@U.prefix.3sg@" > Stems_Habitual_Int1 ;
+< 0:Ꮣ 0:Ꭶ "@U.prefix.3sg@" > Stems_Future_Int1 ;
+< 0:Ꭶ "@U.prefix.3sg@" > Stems_FutImp_Int1 ;
+< 0:Ꭴ "@U.prefix.3sg@" > Stems_RemPast_Int1 ;
+< 0:Ꭴ "@U.prefix.3sg@" > Stems_RepPast_Int1 ;
+< 0:Ꭶ "@U.prefix.3sg@" > Stems_ImmPast_Int1 ;
+< 0:Ꮻ 0:Ꭶ "@U.prefix.3sg@" > Stems_PresImp_Int1 ;
+< 0:Ꭴ "@U.prefix.3sg@" > Stems_Infinitive_Int1 ;
+< 0:Ꭲ 0:Ꮒ "@U.prefix.Idl@" > Stems_Present_Int1 ;
+< 0:Ꭲ 0:Ꮒ "@U.prefix.Idl@" > Stems_Habitual_Int1 ;
+< 0:Ꮣ 0:Ꮒ "@U.prefix.Idl@" > Stems_Future_Int1 ;
+< 0:Ꭲ 0:Ꮒ "@U.prefix.Idl@" > Stems_FutImp_Int1 ;
+< 0:Ꭹ 0:Ꮒ "@U.prefix.Idl@" > Stems_RemPast_Int1 ;
+< 0:Ꭹ 0:Ꮒ "@U.prefix.Idl@" > Stems_RepPast_Int1 ;
+< 0:Ꭲ 0:Ꮒ "@U.prefix.Idl@" > Stems_ImmPast_Int1 ;
+< 0:Ꭲ 0:Ꮒ "@U.prefix.Idl@" > Stems_PresImp_Int1 ;
+< 0:Ꭹ 0:Ꮒ "@U.prefix.Idl@" > Stems_Infinitive_Int1 ;
+< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.prefix.Edl@" > Stems_Present_Int1 ;
+< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.prefix.Edl@" > Stems_Habitual_Int1 ;
+< 0:Ꮣ 0:Ᏺ 0:Ꮝ 0:Ꮧ "@U.prefix.Edl@" > Stems_Future_Int1 ;
+< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.prefix.Edl@" > Stems_FutImp_Int1 ;
+< 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.prefix.Edl@" > Stems_RemPast_Int1 ;
+< 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.prefix.Edl@" > Stems_RepPast_Int1 ;
+< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.prefix.Edl@" > Stems_ImmPast_Int1 ;
+< 0:Ꮼ 0:Ꮝ 0:Ꮧ "@U.prefix.Edl@" > Stems_PresImp_Int1 ;
+< 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.prefix.Edl@" > Stems_Infinitive_Int1 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_Present_Int1 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_Habitual_Int1 ;
+< 0:Ꮣ 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_Future_Int1 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_FutImp_Int1 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_RemPast_Int1 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_RepPast_Int1 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_ImmPast_Int1 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_PresImp_Int1 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_Infinitive_Int1 ;
+< 0:Ꭲ 0:Ꮧ "@U.prefix.Ipl@" > Stems_Present_Int1 ;
+< 0:Ꭲ 0:Ꮧ "@U.prefix.Ipl@" > Stems_Habitual_Int1 ;
+< 0:Ꮣ 0:Ꮧ "@U.prefix.Ipl@" > Stems_Future_Int1 ;
+< 0:Ꭲ 0:Ꮧ "@U.prefix.Ipl@" > Stems_FutImp_Int1 ;
+< 0:Ꭲ 0:Ꭹ "@U.prefix.Ipl@" > Stems_RemPast_Int1 ;
+< 0:Ꭲ 0:Ꭹ "@U.prefix.Ipl@" > Stems_RepPast_Int1 ;
+< 0:Ꭲ 0:Ꮧ "@U.prefix.Ipl@" > Stems_ImmPast_Int1 ;
+< 0:Ꭲ 0:Ꮧ "@U.prefix.Ipl@" > Stems_PresImp_Int1 ;
+< 0:Ꭲ 0:Ꭹ "@U.prefix.Ipl@" > Stems_Infinitive_Int1 ;
+< 0:Ꭳ 0:Ꮵ "@U.prefix.Epl@" > Stems_Present_Int1 ;
+< 0:Ꭳ 0:Ꮵ "@U.prefix.Epl@" > Stems_Habitual_Int1 ;
+< 0:Ꮣ 0:Ᏺ 0:Ꮵ "@U.prefix.Epl@" > Stems_Future_Int1 ;
+< 0:Ꭳ 0:Ꮵ "@U.prefix.Epl@" > Stems_FutImp_Int1 ;
+< 0:Ꭳ 0:Ꭹ "@U.prefix.Epl@" > Stems_RemPast_Int1 ;
+< 0:Ꭳ 0:Ꭹ "@U.prefix.Epl@" > Stems_RepPast_Int1 ;
+< 0:Ꭳ 0:Ꮵ "@U.prefix.Epl@" > Stems_ImmPast_Int1 ;
+< 0:Ꮼ 0:Ꮵ "@U.prefix.Epl@" > Stems_PresImp_Int1 ;
+< 0:Ꭳ 0:Ꭹ "@U.prefix.Epl@" > Stems_Infinitive_Int1 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_Present_Int1 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_Habitual_Int1 ;
+< 0:Ꮣ 0:Ꮵ "@U.prefix.2pl@" > Stems_Future_Int1 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_FutImp_Int1 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_RemPast_Int1 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_RepPast_Int1 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_ImmPast_Int1 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_PresImp_Int1 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_Infinitive_Int1 ;
+< 0:Ꭰ 0:Ꮒ "@U.prefix.3pl@" > Stems_Present_Int1 ;
+< 0:Ꭰ 0:Ꮒ "@U.prefix.3pl@" > Stems_Habitual_Int1 ;
+< 0:Ꮫ 0:Ꮒ "@U.prefix.3pl@" > Stems_Future_Int1 ;
+< 0:Ꭰ 0:Ꮒ "@U.prefix.3pl@" > Stems_FutImp_Int1 ;
+< 0:Ꭴ 0:Ꮒ "@U.prefix.3pl@" > Stems_RemPast_Int1 ;
+< 0:Ꭴ 0:Ꮒ "@U.prefix.3pl@" > Stems_RepPast_Int1 ;
+< 0:Ꭰ 0:Ꮒ "@U.prefix.3pl@" > Stems_ImmPast_Int1 ;
+< 0:Ꮹ 0:Ꮒ "@U.prefix.3pl@" > Stems_PresImp_Int1 ;
+< 0:Ꭴ 0:Ꮒ "@U.prefix.3pl@" > Stems_Infinitive_Int1 ;
 
 LEXICON Verb_Prefixes_Int2
-+V+1sg:Ꮵ Stems_Present_Int2 ;
-+V+1sg:Ꮵ Stems_Habitual_Int2 ;
-+V+1sg:ᏓᏥ Stems_Future_Int2 ;
-+V+1sg:Ꮵ Stems_FutImp_Int2 ;
-+V+1sg:ᎠᎩ Stems_RemPast_Int2 ;
-+V+1sg:ᎠᎩ Stems_RepPast_Int2 ;
-+V+1sg:Ꮵ Stems_ImmPast_Int2 ;
-+V+1sg:Ꮵ Stems_PresImp_Int2 ;
-+V+1sg:ᎠᎩ Stems_Infinitive_Int2 ;
-+V+2sg:Ꭿ Stems_Present_Int2 ;
-+V+2sg:Ꭿ Stems_Habitual_Int2 ;
-+V+2sg:Ꮨ Stems_Future_Int2 ;
-+V+2sg:Ꭿ Stems_FutImp_Int2 ;
-+V+2sg:Ꮳ Stems_RemPast_Int2 ;
-+V+2sg:Ꮳ Stems_RepPast_Int2 ;
-+V+2sg:Ꭿ Stems_ImmPast_Int2 ;
-+V+2sg:Ꭿ Stems_PresImp_Int2 ;
-+V+2sg:Ꮳ Stems_Infinitive_Int2 ;
-+V+3sg:Ꭶ Stems_Present_Int2 ;
-+V+3sg:Ꭶ Stems_Habitual_Int2 ;
-+V+3sg:ᏓᎦ Stems_Future_Int2 ;
-+V+3sg:Ꭶ Stems_FutImp_Int2 ;
-+V+3sg:ᎤᏩ Stems_RemPast_Int2 ;
-+V+3sg:ᎤᏩ Stems_RepPast_Int2 ;
-+V+3sg:Ꭶ Stems_ImmPast_Int2 ;
-+V+3sg:ᏫᎦ Stems_PresImp_Int2 ;
-+V+3sg:ᎤᏩ Stems_Infinitive_Int2 ;
-+V+Idl:ᎢᏂ Stems_Present_Int2 ;
-+V+Idl:ᎢᏂ Stems_Habitual_Int2 ;
-+V+Idl:ᏓᏂ Stems_Future_Int2 ;
-+V+Idl:ᎢᏂ Stems_FutImp_Int2 ;
-+V+Idl:ᎩᏂ Stems_RemPast_Int2 ;
-+V+Idl:ᎩᏂ Stems_RepPast_Int2 ;
-+V+Idl:ᎢᏂ Stems_ImmPast_Int2 ;
-+V+Idl:ᎢᏂ Stems_PresImp_Int2 ;
-+V+Idl:ᎩᏂ Stems_Infinitive_Int2 ;
-+V+Edl:ᎣᏍᏗ Stems_Present_Int2 ;
-+V+Edl:ᎣᏍᏗ Stems_Habitual_Int2 ;
-+V+Edl:ᏓᏲᏍᏗ Stems_Future_Int2 ;
-+V+Edl:ᎣᏍᏗ Stems_FutImp_Int2 ;
-+V+Edl:ᎣᎩᏂ Stems_RemPast_Int2 ;
-+V+Edl:ᎣᎩᏂ Stems_RepPast_Int2 ;
-+V+Edl:ᎣᏍᏗ Stems_ImmPast_Int2 ;
-+V+Edl:ᏬᏍᏗ Stems_PresImp_Int2 ;
-+V+Edl:ᎣᎩᏂ Stems_Infinitive_Int2 ;
-+V+2dl:ᏍᏗ Stems_Present_Int2 ;
-+V+2dl:ᏍᏗ Stems_Habitual_Int2 ;
-+V+2dl:ᏓᏍᏗ Stems_Future_Int2 ;
-+V+2dl:ᏍᏗ Stems_FutImp_Int2 ;
-+V+2dl:ᏍᏗ Stems_RemPast_Int2 ;
-+V+2dl:ᏍᏗ Stems_RepPast_Int2 ;
-+V+2dl:ᏍᏗ Stems_ImmPast_Int2 ;
-+V+2dl:ᏍᏗ Stems_PresImp_Int2 ;
-+V+2dl:ᏍᏗ Stems_Infinitive_Int2 ;
-+V+Ipl:ᎢᏗ Stems_Present_Int2 ;
-+V+Ipl:ᎢᏗ Stems_Habitual_Int2 ;
-+V+Ipl:ᏓᏗ Stems_Future_Int2 ;
-+V+Ipl:ᎢᏗ Stems_FutImp_Int2 ;
-+V+Ipl:ᎢᎩ Stems_RemPast_Int2 ;
-+V+Ipl:ᎢᎩ Stems_RepPast_Int2 ;
-+V+Ipl:ᎢᏗ Stems_ImmPast_Int2 ;
-+V+Ipl:ᎢᏗ Stems_PresImp_Int2 ;
-+V+Ipl:ᎢᎩ Stems_Infinitive_Int2 ;
-+V+Epl:ᎣᏥ Stems_Present_Int2 ;
-+V+Epl:ᎣᏥ Stems_Habitual_Int2 ;
-+V+Epl:ᏓᏲᏥ Stems_Future_Int2 ;
-+V+Epl:ᎣᏥ Stems_FutImp_Int2 ;
-+V+Epl:ᎣᎩ Stems_RemPast_Int2 ;
-+V+Epl:ᎣᎩ Stems_RepPast_Int2 ;
-+V+Epl:ᎣᏥ Stems_ImmPast_Int2 ;
-+V+Epl:ᏬᏥ Stems_PresImp_Int2 ;
-+V+Epl:ᎣᎩ Stems_Infinitive_Int2 ;
-+V+2pl:ᎢᏥ Stems_Present_Int2 ;
-+V+2pl:ᎢᏥ Stems_Habitual_Int2 ;
-+V+2pl:ᏓᏥ Stems_Future_Int2 ;
-+V+2pl:ᎢᏥ Stems_FutImp_Int2 ;
-+V+2pl:ᎢᏥ Stems_RemPast_Int2 ;
-+V+2pl:ᎢᏥ Stems_RepPast_Int2 ;
-+V+2pl:ᎢᏥ Stems_ImmPast_Int2 ;
-+V+2pl:ᎢᏥ Stems_PresImp_Int2 ;
-+V+2pl:ᎢᏥ Stems_Infinitive_Int2 ;
-+V+3pl:ᎠᏂ Stems_Present_Int2 ;
-+V+3pl:ᎠᏂ Stems_Habitual_Int2 ;
-+V+3pl:ᏛᏂ Stems_Future_Int2 ;
-+V+3pl:ᎠᏂ Stems_FutImp_Int2 ;
-+V+3pl:ᎤᏂ Stems_RemPast_Int2 ;
-+V+3pl:ᎤᏂ Stems_RepPast_Int2 ;
-+V+3pl:ᎠᏂ Stems_ImmPast_Int2 ;
-+V+3pl:ᏩᏂ Stems_PresImp_Int2 ;
-+V+3pl:ᎤᏂ Stems_Infinitive_Int2 ;
+< 0:Ꮵ "@U.prefix.1sg@" > Stems_Present_Int2 ;
+< 0:Ꮵ "@U.prefix.1sg@" > Stems_Habitual_Int2 ;
+< 0:Ꮣ 0:Ꮵ "@U.prefix.1sg@" > Stems_Future_Int2 ;
+< 0:Ꮵ "@U.prefix.1sg@" > Stems_FutImp_Int2 ;
+< 0:Ꭰ 0:Ꭹ "@U.prefix.1sg@" > Stems_RemPast_Int2 ;
+< 0:Ꭰ 0:Ꭹ "@U.prefix.1sg@" > Stems_RepPast_Int2 ;
+< 0:Ꮵ "@U.prefix.1sg@" > Stems_ImmPast_Int2 ;
+< 0:Ꮵ "@U.prefix.1sg@" > Stems_PresImp_Int2 ;
+< 0:Ꭰ 0:Ꭹ "@U.prefix.1sg@" > Stems_Infinitive_Int2 ;
+< 0:Ꭿ "@U.prefix.2sg@" > Stems_Present_Int2 ;
+< 0:Ꭿ "@U.prefix.2sg@" > Stems_Habitual_Int2 ;
+< 0:Ꮨ "@U.prefix.2sg@" > Stems_Future_Int2 ;
+< 0:Ꭿ "@U.prefix.2sg@" > Stems_FutImp_Int2 ;
+< 0:Ꮳ "@U.prefix.2sg@" > Stems_RemPast_Int2 ;
+< 0:Ꮳ "@U.prefix.2sg@" > Stems_RepPast_Int2 ;
+< 0:Ꭿ "@U.prefix.2sg@" > Stems_ImmPast_Int2 ;
+< 0:Ꭿ "@U.prefix.2sg@" > Stems_PresImp_Int2 ;
+< 0:Ꮳ "@U.prefix.2sg@" > Stems_Infinitive_Int2 ;
+< 0:Ꭶ "@U.prefix.3sg@" > Stems_Present_Int2 ;
+< 0:Ꭶ "@U.prefix.3sg@" > Stems_Habitual_Int2 ;
+< 0:Ꮣ 0:Ꭶ "@U.prefix.3sg@" > Stems_Future_Int2 ;
+< 0:Ꭶ "@U.prefix.3sg@" > Stems_FutImp_Int2 ;
+< 0:Ꭴ 0:Ꮹ "@U.prefix.3sg@" > Stems_RemPast_Int2 ;
+< 0:Ꭴ 0:Ꮹ "@U.prefix.3sg@" > Stems_RepPast_Int2 ;
+< 0:Ꭶ "@U.prefix.3sg@" > Stems_ImmPast_Int2 ;
+< 0:Ꮻ 0:Ꭶ "@U.prefix.3sg@" > Stems_PresImp_Int2 ;
+< 0:Ꭴ 0:Ꮹ "@U.prefix.3sg@" > Stems_Infinitive_Int2 ;
+< 0:Ꭲ 0:Ꮒ "@U.prefix.Idl@" > Stems_Present_Int2 ;
+< 0:Ꭲ 0:Ꮒ "@U.prefix.Idl@" > Stems_Habitual_Int2 ;
+< 0:Ꮣ 0:Ꮒ "@U.prefix.Idl@" > Stems_Future_Int2 ;
+< 0:Ꭲ 0:Ꮒ "@U.prefix.Idl@" > Stems_FutImp_Int2 ;
+< 0:Ꭹ 0:Ꮒ "@U.prefix.Idl@" > Stems_RemPast_Int2 ;
+< 0:Ꭹ 0:Ꮒ "@U.prefix.Idl@" > Stems_RepPast_Int2 ;
+< 0:Ꭲ 0:Ꮒ "@U.prefix.Idl@" > Stems_ImmPast_Int2 ;
+< 0:Ꭲ 0:Ꮒ "@U.prefix.Idl@" > Stems_PresImp_Int2 ;
+< 0:Ꭹ 0:Ꮒ "@U.prefix.Idl@" > Stems_Infinitive_Int2 ;
+< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.prefix.Edl@" > Stems_Present_Int2 ;
+< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.prefix.Edl@" > Stems_Habitual_Int2 ;
+< 0:Ꮣ 0:Ᏺ 0:Ꮝ 0:Ꮧ "@U.prefix.Edl@" > Stems_Future_Int2 ;
+< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.prefix.Edl@" > Stems_FutImp_Int2 ;
+< 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.prefix.Edl@" > Stems_RemPast_Int2 ;
+< 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.prefix.Edl@" > Stems_RepPast_Int2 ;
+< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.prefix.Edl@" > Stems_ImmPast_Int2 ;
+< 0:Ꮼ 0:Ꮝ 0:Ꮧ "@U.prefix.Edl@" > Stems_PresImp_Int2 ;
+< 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.prefix.Edl@" > Stems_Infinitive_Int2 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_Present_Int2 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_Habitual_Int2 ;
+< 0:Ꮣ 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_Future_Int2 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_FutImp_Int2 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_RemPast_Int2 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_RepPast_Int2 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_ImmPast_Int2 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_PresImp_Int2 ;
+< 0:Ꮝ 0:Ꮧ "@U.prefix.2dl@" > Stems_Infinitive_Int2 ;
+< 0:Ꭲ 0:Ꮧ "@U.prefix.Ipl@" > Stems_Present_Int2 ;
+< 0:Ꭲ 0:Ꮧ "@U.prefix.Ipl@" > Stems_Habitual_Int2 ;
+< 0:Ꮣ 0:Ꮧ "@U.prefix.Ipl@" > Stems_Future_Int2 ;
+< 0:Ꭲ 0:Ꮧ "@U.prefix.Ipl@" > Stems_FutImp_Int2 ;
+< 0:Ꭲ 0:Ꭹ "@U.prefix.Ipl@" > Stems_RemPast_Int2 ;
+< 0:Ꭲ 0:Ꭹ "@U.prefix.Ipl@" > Stems_RepPast_Int2 ;
+< 0:Ꭲ 0:Ꮧ "@U.prefix.Ipl@" > Stems_ImmPast_Int2 ;
+< 0:Ꭲ 0:Ꮧ "@U.prefix.Ipl@" > Stems_PresImp_Int2 ;
+< 0:Ꭲ 0:Ꭹ "@U.prefix.Ipl@" > Stems_Infinitive_Int2 ;
+< 0:Ꭳ 0:Ꮵ "@U.prefix.Epl@" > Stems_Present_Int2 ;
+< 0:Ꭳ 0:Ꮵ "@U.prefix.Epl@" > Stems_Habitual_Int2 ;
+< 0:Ꮣ 0:Ᏺ 0:Ꮵ "@U.prefix.Epl@" > Stems_Future_Int2 ;
+< 0:Ꭳ 0:Ꮵ "@U.prefix.Epl@" > Stems_FutImp_Int2 ;
+< 0:Ꭳ 0:Ꭹ "@U.prefix.Epl@" > Stems_RemPast_Int2 ;
+< 0:Ꭳ 0:Ꭹ "@U.prefix.Epl@" > Stems_RepPast_Int2 ;
+< 0:Ꭳ 0:Ꮵ "@U.prefix.Epl@" > Stems_ImmPast_Int2 ;
+< 0:Ꮼ 0:Ꮵ "@U.prefix.Epl@" > Stems_PresImp_Int2 ;
+< 0:Ꭳ 0:Ꭹ "@U.prefix.Epl@" > Stems_Infinitive_Int2 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_Present_Int2 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_Habitual_Int2 ;
+< 0:Ꮣ 0:Ꮵ "@U.prefix.2pl@" > Stems_Future_Int2 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_FutImp_Int2 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_RemPast_Int2 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_RepPast_Int2 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_ImmPast_Int2 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_PresImp_Int2 ;
+< 0:Ꭲ 0:Ꮵ "@U.prefix.2pl@" > Stems_Infinitive_Int2 ;
+< 0:Ꭰ 0:Ꮒ "@U.prefix.3pl@" > Stems_Present_Int2 ;
+< 0:Ꭰ 0:Ꮒ "@U.prefix.3pl@" > Stems_Habitual_Int2 ;
+< 0:Ꮫ 0:Ꮒ "@U.prefix.3pl@" > Stems_Future_Int2 ;
+< 0:Ꭰ 0:Ꮒ "@U.prefix.3pl@" > Stems_FutImp_Int2 ;
+< 0:Ꭴ 0:Ꮒ "@U.prefix.3pl@" > Stems_RemPast_Int2 ;
+< 0:Ꭴ 0:Ꮒ "@U.prefix.3pl@" > Stems_RepPast_Int2 ;
+< 0:Ꭰ 0:Ꮒ "@U.prefix.3pl@" > Stems_ImmPast_Int2 ;
+< 0:Ꮹ 0:Ꮒ "@U.prefix.3pl@" > Stems_PresImp_Int2 ;
+< 0:Ꭴ 0:Ꮒ "@U.prefix.3pl@" > Stems_Infinitive_Int2 ;
 
 LEXICON Suffix_Present_ha
-+Pres:Ꭽ # ;
++V+Pres:Ꭽ  PersonFeatures ;
 
 LEXICON Suffix_Present_ga
-+Pres:Ꭶ # ;
++V+Pres:Ꭶ  PersonFeatures ;
 
 LEXICON Suffix_Present_a
-+Pres:Ꭰ # ;
++V+Pres:Ꭰ  PersonFeatures ;
 
 LEXICON Suffix_Habitual_hoi
-+Hab:ᎰᎢ # ;
++V+Hab:ᎰᎢ  PersonFeatures ;
 
 LEXICON Suffix_Habitual_goi
-+Hab:ᎪᎢ # ;
++V+Hab:ᎪᎢ  PersonFeatures ;
 
 LEXICON Suffix_Habitual_sgoi
-+Hab:ᏍᎪᎢ # ;
++V+Hab:ᏍᎪᎢ  PersonFeatures ;
 
 LEXICON Suffix_Future_tli
-+Fut:Ꮯ # ;
++V+Fut:Ꮯ  PersonFeatures ;
 
 LEXICON Suffix_Future_si
-+Fut:Ꮟ # ;
++V+Fut:Ꮟ  PersonFeatures ;
 
 LEXICON Suffix_Future_hi
-+Fut:Ꭿ # ;
++V+Fut:Ꭿ  PersonFeatures ;
 
 LEXICON Suffix_Future_i
-+Fut:Ꭲ # ;
++V+Fut:Ꭲ  PersonFeatures ;
 
 LEXICON Suffix_Future_li
-+Fut:Ꮅ # ;
++V+Fut:Ꮅ  PersonFeatures ;
 
 LEXICON Suffix_FutImp_tlvi
-+FutImp:ᏢᎢ # ;
++V+FutImp:ᏢᎢ  PersonFeatures ;
 
 LEXICON Suffix_FutImp_svi
-+FutImp:ᏒᎢ # ;
++V+FutImp:ᏒᎢ  PersonFeatures ;
 
 LEXICON Suffix_FutImp_hvi
-+FutImp:ᎲᎢ # ;
++V+FutImp:ᎲᎢ  PersonFeatures ;
 
 LEXICON Suffix_FutImp_vi
-+FutImp:ᎥᎢ # ;
++V+FutImp:ᎥᎢ  PersonFeatures ;
 
 LEXICON Suffix_FutImp_lvi
-+FutImp:ᎸᎢ # ;
++V+FutImp:ᎸᎢ  PersonFeatures ;
 
 LEXICON Suffix_RemPast_tlvi
-+RemPast:ᏢᎢ # ;
++V+RemPast:ᏢᎢ  PersonFeatures ;
 
 LEXICON Suffix_RemPast_svi
-+RemPast:ᏒᎢ # ;
++V+RemPast:ᏒᎢ  PersonFeatures ;
 
 LEXICON Suffix_RemPast_hvi
-+RemPast:ᎲᎢ # ;
++V+RemPast:ᎲᎢ  PersonFeatures ;
 
 LEXICON Suffix_RemPast_vi
-+RemPast:ᎥᎢ # ;
++V+RemPast:ᎥᎢ  PersonFeatures ;
 
 LEXICON Suffix_RemPast_lvi
-+RemPast:ᎸᎢ # ;
++V+RemPast:ᎸᎢ  PersonFeatures ;
 
 LEXICON Suffix_RepPast_tlei
-+RepPast:ᏞᎢ # ;
++V+RepPast:ᏞᎢ  PersonFeatures ;
 
 LEXICON Suffix_RepPast_sei
-+RepPast:ᏎᎢ # ;
++V+RepPast:ᏎᎢ  PersonFeatures ;
 
 LEXICON Suffix_RepPast_hei
-+RepPast:ᎮᎢ # ;
++V+RepPast:ᎮᎢ  PersonFeatures ;
 
 LEXICON Suffix_RepPast_ei
-+RepPast:ᎡᎢ # ;
++V+RepPast:ᎡᎢ  PersonFeatures ;
 
 LEXICON Suffix_RepPast_lei
-+RepPast:ᎴᎢ # ;
++V+RepPast:ᎴᎢ  PersonFeatures ;
 
 LEXICON Suffix_ImmPast_ga
-+ImmPast:Ꭶ # ;
++V+ImmPast:Ꭶ  PersonFeatures ;
 
 LEXICON Suffix_ImmPast_hi
-+ImmPast:Ꭿ # ;
++V+ImmPast:Ꭿ  PersonFeatures ;
 
 LEXICON Suffix_ImmPast_ta
-+ImmPast:Ꮤ # ;
++V+ImmPast:Ꮤ  PersonFeatures ;
 
 LEXICON Suffix_ImmPast_da
-+ImmPast:Ꮣ # ;
++V+ImmPast:Ꮣ  PersonFeatures ;
 
 LEXICON Suffix_ImmPast_na
-+ImmPast:Ꮎ # ;
++V+ImmPast:Ꮎ  PersonFeatures ;
 
 LEXICON Suffix_PresImp_ga
-+PresImp:Ꭶ # ;
++V+PresImp:Ꭶ  PersonFeatures ;
 
 LEXICON Suffix_PresImp_hi
-+PresImp:Ꭿ # ;
++V+PresImp:Ꭿ  PersonFeatures ;
 
 LEXICON Suffix_PresImp_ta
-+PresImp:Ꮤ # ;
++V+PresImp:Ꮤ  PersonFeatures ;
 
 LEXICON Suffix_PresImp_da
-+PresImp:Ꮣ # ;
++V+PresImp:Ꮣ  PersonFeatures ;
 
 LEXICON Suffix_PresImp_na
-+PresImp:Ꮎ # ;
++V+PresImp:Ꮎ  PersonFeatures ;
 
 LEXICON Suffix_ImmPast_ga
-+ImmPast:Ꭶ # ;
++V+ImmPast:Ꭶ  PersonFeatures ;
 
 LEXICON Suffix_ImmPast_hi
-+ImmPast:Ꭿ # ;
++V+ImmPast:Ꭿ  PersonFeatures ;
 
 LEXICON Suffix_Infinitive_sdi
-+Inf:ᏍᏗ # ;
++V+Inf:ᏍᏗ  PersonFeatures ;
 
 LEXICON Suffix_Infinitive_di
-+Inf:Ꮧ # ;
++V+Inf:Ꮧ  PersonFeatures ;
 
+LEXICON PersonFeatures
+
+< "+1sg":0 "@U.prefix.1sg@" > # ;
+< "+2dl":0 "@U.prefix.2dl@" > # ;
+< "+2pl":0 "@U.prefix.2pl@" > # ;
+< "+2sg":0 "@U.prefix.2sg@" > # ;
+< "+3pl":0 "@U.prefix.3pl@" > # ;
+< "+3sg":0 "@U.prefix.3sg@" > # ;
+< "+Edl":0 "@U.prefix.Edl@" > # ;
+< "+Epl":0 "@U.prefix.Epl@" > # ;
+< "+Idl":0 "@U.prefix.Idl@" > # ;
+< "+Ipl":0 "@U.prefix.Ipl@" > # ;
