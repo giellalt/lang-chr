@@ -97,7 +97,7 @@ LEXICON Root
 !! word classes, or optionally from prefixes:
 !   Prefixes    ;
 !   Nouns   ;
-  Verbs   ;    !!= * @CODE@ 
+  VerbPrefixes   ;    !!= * @CODE@ 
 !   Adjectives  ;
 !   Pronouns    ;
 !   Numerals    ;
