@@ -1,0 +1,22 @@
+Alphabet
+!! !!!Alphabet
+
+Ꭰ Ꭲ Ꭳ Ꭴ Ꭶ Ꭷ Ꭹ Ꭿ Ꮂ Ꮆ Ꮎ Ꮑ Ꮒ Ꮓ Ꮝ Ꮣ Ꮨ Ꮩ Ꮫ Ꮳ Ꮵ Ꮶ Ꮹ Ꮻ Ꮼ Ꮿ Ᏸ
+
+Sets
+
+ Dummy = %> ;
+ 
+Definitions 
+
+ Affb = :* %>:0 :* ; 
+ Pos = :* %^POS:0 :* ;
+ Dim = :* %^DIM:0 :* ;
+ Loc = :* %^LOC:0 :* ;
+ PosDim = :* [ %^POS:0 | %^DIM:0 ]  :* ;
+ Plur = %>:0 a .#. ;
+
+!! !!!Rules
+
+Rules
+
