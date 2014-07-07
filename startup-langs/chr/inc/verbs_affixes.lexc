@@ -1,7 +1,6 @@
 !! Verb inflection
 !! ---------------
 
-
 ! vim: set ft=xfst-lexc:
 
 LEXICON VerbPrefixes
