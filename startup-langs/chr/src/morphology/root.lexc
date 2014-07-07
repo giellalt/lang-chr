@@ -1,0 +1,105 @@
+! Divvun & Giellatekno - open source grammars for UNDEFINED language
+! Copyright © 2012 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
+
+! ========================================================================== !
+!                Cherokee morphological analyser                      
+! ========================================================================== !
+
+!! This file shows the Haida multichar symbols and initial lexica.
+
+Multichar_Symbols  !!≈ !!!@CODE@ definitions
+
+!! !!Analysis symbols
+!! ----------------
+!! The morphological analyses of wordforms of Northern Haida are presented
+!! in this system in terms of following symbols.
+
+!! (It is highly suggested to follow existing standards when adding new tags).
+
+!! The parts-of-speech could perhaps also be (remove irrelevant):
+
++N	    !!= * @CODE@ =
++A	    !!= * @CODE@ =
++Adv    !!= * @CODE@ =
++Pron   !!= * @CODE@ =
++CS	    !!= * @CODE@ =
++CC	    !!= * @CODE@ =
++Adp    !!= * @CODE@ =
++Po	    !!= * @CODE@ =
++Pr	    !!= * @CODE@ =
++Interj !!= * @CODE@ =
++Pcle   !!= * @CODE@ =
++Num    !!= * @CODE@ =
+
++Def  !!= * @CODE@ =
++Indef !!= * @CODE@ =
+
+!! The parts of speech are further split up into:
+
++Prop   !!= * @CODE@ =
++Pers   !!= * @CODE@ =
++Dem    !!= * @CODE@ =
++Interr !!= * @CODE@ =
++Refl   !!= * @CODE@ =
++Recipr !!= * @CODE@ =
++Rel    !!= * @CODE@ =
++Indef  !!= * @CODE@ =
+
+!! The Usage extents are marked using the following tags:
+ +Err/Sub     !!= * @CODE@ = Substandard forms
+ +Use/-Spell  !!= * @CODE@ = Not included in speller
+
+!! The nominals are inflected in the following Number
+
++Sg   !!= * @CODE@ =
++Pl   !!= * @CODE@ =
+
+%^WS	!!=* @CODE@ = whitespace dummy, for twolc
+
+! Abbreviated words are classified with:
+
++ABBR !!= * @CODE@ = Abbreviations
++ACR  !!= * @CODE@ = Acronyms
+
+ 
+!! Special symbols are classified with:
++CLB   !!= * @CODE@ = Clause boundary symbols
++PUNCT !!= * @CODE@ = Other punctuation marks
++LEFT  !!= * @CODE@ = Left part of paired symbols
++RIGHT !!= * @CODE@ = Right part of paired symbols
+
+!! The verbs are syntactically split according to transitivity:
++TV !!= * @CODE@ 
++IV !!= * @CODE@ 
+
+!! Special multiword units are analysed with:
+ +Multi !!= * @CODE@ 
+
+!! Non-dictionary words can be recognised with:
+ +Guess !!= * @CODE@ 
+
+%>
+
+
+LEXICON Root
+!! The word forms in Haida start from the lexeme roots of basic
+!! word classes, or optionally from prefixes:
+!   Prefixes    ;
+!   Nouns   ;
+  Verbs   ;    !!= * @CODE@ 
+!   Adjectives  ;
+!   Pronouns    ;
+!   Numerals    ;
+!   Postpositions ;
+!   Particles ;
