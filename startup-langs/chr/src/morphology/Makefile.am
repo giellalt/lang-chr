@@ -20,15 +20,7 @@ GT_LEXC_ROOT=root.lexc
 
 # Set this to the names of all other source lexc files
 GT_LEXC_SRCS=\
-			 affixes/adjectives.lexc \
-			 affixes/nouns.lexc \
-			 affixes/propernouns.lexc \
 			 affixes/verbs.lexc \
-			 stems/adjectives.lexc \
-			 stems/nouns.lexc \
-			 stems/numerals.lexc \
-			 stems/prefixes.lexc \
-			 stems/pronouns.lexc \
 			 stems/verbs.lexc
 
 # Set this to the names of all generated lexc files, if any
