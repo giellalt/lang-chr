@@ -5,7 +5,7 @@ Alphabet
   Ꮄ Ꮅ Ꮆ Ꮇ Ꮈ Ꮉ Ꮊ Ꮋ Ꮌ Ꮍ Ꮎ Ꮏ Ꮐ Ꮑ Ꮒ Ꮓ Ꮔ Ꮕ Ꮖ Ꮗ 
   Ꮘ Ꮙ Ꮚ Ꮛ Ꮜ Ꮝ Ꮞ Ꮟ Ꮠ Ꮡ Ꮢ Ꮣ Ꮤ Ꮥ Ꮦ Ꮧ Ꮨ Ꮩ Ꮪ Ꮫ 
   Ꮬ Ꮭ Ꮮ Ꮯ Ꮰ Ꮱ Ꮲ Ꮳ Ꮴ Ꮵ Ꮶ Ꮷ Ꮸ Ꮹ Ꮺ Ꮻ Ꮼ Ꮽ Ꮾ Ꮿ 
-  Ᏸ Ᏹ Ᏺ Ᏻ Ᏼ 
+  Ᏸ Ᏹ Ᏺ Ᏻ Ᏼ
   ;
 
 Sets
@@ -15,13 +15,11 @@ Sets
 Definitions 
 
  Affb = :* %>:0 :* ; 
- Pos = :* %^POS:0 :* ;
- Dim = :* %^DIM:0 :* ;
- Loc = :* %^LOC:0 :* ;
- PosDim = :* [ %^POS:0 | %^DIM:0 ]  :* ;
- Plur = %>:0 a .#. ;
 
 !! !!!Rules
 
 Rules
 
+"nonsense rule"
+
+  Ꭰ:Ꭰ <=> .#. _ ; !! __@RULENAME@__
