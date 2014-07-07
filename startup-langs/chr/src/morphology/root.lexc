@@ -30,6 +30,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! The parts-of-speech could perhaps also be (remove irrelevant):
 
 +N	    !!= * @CODE@ =
++V	    !!= * @CODE@ =
 +A	    !!= * @CODE@ =
 +Adv    !!= * @CODE@ =
 +Pron   !!= * @CODE@ =
@@ -64,6 +65,41 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 +Sg   !!= * @CODE@ =
 +Pl   !!= * @CODE@ =
+
+!! The verbs can have the following morphological features:
+
++1sg   !!= * @CODE@ =
++2dl   !!= * @CODE@ =
++2pl   !!= * @CODE@ =
++2sg   !!= * @CODE@ =
++3pl   !!= * @CODE@ =
++3sg   !!= * @CODE@ =
++Edl   !!= * @CODE@ =
++Epl   !!= * @CODE@ =
++Fut   !!= * @CODE@ =
++FutImp   !!= * @CODE@ =
++Hab   !!= * @CODE@ =
++Idl   !!= * @CODE@ =
++ImmPast   !!= * @CODE@ =
++Inf   !!= * @CODE@ =
++Ipl   !!= * @CODE@ =
++Pres   !!= * @CODE@ =
++PresImp   !!= * @CODE@ =
++RemPast   !!= * @CODE@ =
++RepPast   !!= * @CODE@ =
+
+!! Verb prefixes
+
+@U.prefix.1sg@   !!= * @CODE@ =
+@U.prefix.2dl@   !!= * @CODE@ =
+@U.prefix.2pl@   !!= * @CODE@ =
+@U.prefix.2sg@   !!= * @CODE@ =
+@U.prefix.3pl@   !!= * @CODE@ =
+@U.prefix.3sg@   !!= * @CODE@ =
+@U.prefix.Edl@   !!= * @CODE@ =
+@U.prefix.Epl@   !!= * @CODE@ =
+@U.prefix.Idl@   !!= * @CODE@ =
+@U.prefix.Ipl@   !!= * @CODE@ =
 
 %^WS	!!=* @CODE@ = whitespace dummy, for twolc
 
