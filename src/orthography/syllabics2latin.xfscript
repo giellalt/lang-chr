@@ -8,112 +8,108 @@
 
 ! three letter symbols
 
-define hnaRule [ Ꮏ ]  -> [ h n a ]
-define nahRule [ Ꮐ ]  -> [ n a h ]
+define hnaRule [ Ꮏ ]  -> [ h n a ] ;
+define nahRule [ Ꮐ ]  -> [ n a h ] ;
 
-define quaRule [ Ꮖ ]  -> [ q u a ]
-define queRule [ Ꮗ ]  -> [ q u e ]
-define quiRule [ Ꮘ ]  -> [ q u i ]
-define quoRule [ Ꮙ ]  -> [ q u o ]
-define quuRule [ Ꮚ ]  -> [ q u u ]
-define quvRule [ Ꮛ ]  -> [ q u v ]
+define quaRule [ Ꮖ ]  -> [ q u a ] ;
+define queRule [ Ꮗ ]  -> [ q u e ] ;
+define quiRule [ Ꮘ ]  -> [ q u i ] ;
+define quoRule [ Ꮙ ]  -> [ q u o ] ;
+define quuRule [ Ꮚ ]  -> [ q u u ] ;
+define quvRule [ Ꮛ ]  -> [ q u v ] ;
 
-define dlaRule [ Ꮬ ]  -> [ d l a ]
-define tlaRule [ Ꮭ ]  -> [ t l a ]
-define tleRule [ Ꮮ ]  -> [ t l e ]
-define tliRule [ Ꮯ ]  -> [ t l i ]
-define tloRule [ Ꮰ ]  -> [ t l o ]
-define tluRule [ Ꮱ ]  -> [ t l u ]
-define tlvRule [ Ꮲ ]  -> [ t l v ]
-define tsaRule [ Ꮳ ]  -> [ t s a ]
-define tseRule [ Ꮴ ]  -> [ t s e ]
-define tsiRule [ Ꮵ ]  -> [ t s i ]
-define tsoRule [ Ꮶ ]  -> [ t s o ]
-define tsuRule [ Ꮷ ]  -> [ t s u ]
-define tsvRule [ Ꮸ ]  -> [ t s v ]
+define dlaRule [ Ꮬ ]  -> [ d l a ] ;
+define tlaRule [ Ꮭ ]  -> [ t l a ] ;
+define tleRule [ Ꮮ ]  -> [ t l e ] ;
+define tliRule [ Ꮯ ]  -> [ t l i ] ;
+define tloRule [ Ꮰ ]  -> [ t l o ] ;
+define tluRule [ Ꮱ ]  -> [ t l u ] ;
+define tlvRule [ Ꮲ ]  -> [ t l v ] ;
+define tsaRule [ Ꮳ ]  -> [ t s a ] ;
+define tseRule [ Ꮴ ]  -> [ t s e ] ;
+define tsiRule [ Ꮵ ]  -> [ t s i ] ;
+define tsoRule [ Ꮶ ]  -> [ t s o ] ;
+define tsuRule [ Ꮷ ]  -> [ t s u ] ;
+define tsvRule [ Ꮸ ]  -> [ t s v ] ;
 	
 ! two letter symbols
 
-define gaRule [ Ꭶ ]  -> [ g a ]
-define kaRule [ Ꭷ ]  -> [ k a ]
-define geRule [ Ꭸ ]  -> [ g e ]
-define giRule [ Ꭹ ]  -> [ g i ]
-define goRule [ Ꭺ ]  -> [ g o ]
-define guRule [ Ꭻ ]  -> [ g u ]
-define gvRule [ Ꭼ ]  -> [ g v ]
+define gaRule [ Ꭶ ]  -> [ g a ] ;
+define kaRule [ Ꭷ ]  -> [ k a ] ;
+define geRule [ Ꭸ ]  -> [ g e ] ;
+define giRule [ Ꭹ ]  -> [ g i ] ;
+define goRule [ Ꭺ ]  -> [ g o ] ;
+define guRule [ Ꭻ ]  -> [ g u ] ;
+define gvRule [ Ꭼ ]  -> [ g v ] ;
 
-define haRule [ Ꭽ ]  -> [ h a ]
-define heRule [ Ꭾ ]  -> [ h e ]
-define hiRule [ Ꭿ ]  -> [ h i ]
-define hoRule [ Ꮀ ]  -> [ h o ]
-define huRule [ Ꮁ ]  -> [ h u ]
-define hvRule [ Ꮂ ]  -> [ h v ]
+define haRule [ Ꭽ ]  -> [ h a ] ;
+define heRule [ Ꭾ ]  -> [ h e ] ;
+define hiRule [ Ꭿ ]  -> [ h i ] ;
+define hoRule [ Ꮀ ]  -> [ h o ] ;
+define huRule [ Ꮁ ]  -> [ h u ] ;
+define hvRule [ Ꮂ ]  -> [ h v ] ;
 
-define laRule [ Ꮃ ]  -> [ l a ]
-define leRule [ Ꮄ ]  -> [ l e ]
-define liRule [ Ꮅ ]  -> [ l i ]
-define loRule [ Ꮆ ]  -> [ l o ]
-define luRule [ Ꮇ ]  -> [ l u ]
-define lvRule [ Ꮈ ]  -> [ l v ]
+define laRule [ Ꮃ ]  -> [ l a ] ;
+define leRule [ Ꮄ ]  -> [ l e ] ;
+define liRule [ Ꮅ ]  -> [ l i ] ;
+define loRule [ Ꮆ ]  -> [ l o ] ;
+define luRule [ Ꮇ ]  -> [ l u ] ;
+define lvRule [ Ꮈ ]  -> [ l v ] ;
 
-define maRule [ Ꮉ ]  -> [ m a ]
-define meRule [ Ꮊ ]  -> [ m e ]
-define miRule [ Ꮋ ]  -> [ m i ]
-define moRule [ Ꮌ ]  -> [ m o ]
-define muRule [ Ꮍ ]  -> [ m u ]
-define naRule [ Ꮎ ]  -> [ n a ]
+define maRule [ Ꮉ ]  -> [ m a ] ;
+define meRule [ Ꮊ ]  -> [ m e ] ;
+define miRule [ Ꮋ ]  -> [ m i ] ;
+define moRule [ Ꮌ ]  -> [ m o ] ;
+define muRule [ Ꮍ ]  -> [ m u ] ;
+define naRule [ Ꮎ ]  -> [ n a ] ;
 
-define neRule [ Ꮑ ]  -> [ n e ]
-define niRule [ Ꮒ ]  -> [ n i ]
-define noRule [ Ꮓ ]  -> [ n o ]
-define nuRule [ Ꮔ ]  -> [ n u ]
-define nvRule [ Ꮕ ]  -> [ n v ]
+define neRule [ Ꮑ ]  -> [ n e ] ;
+define niRule [ Ꮒ ]  -> [ n i ] ;
+define noRule [ Ꮓ ]  -> [ n o ] ;
+define nuRule [ Ꮔ ]  -> [ n u ] ;
+define nvRule [ Ꮕ ]  -> [ n v ] ;
 	
-define saRule [ Ꮜ ]  -> [ s a ]
-define seRule [ Ꮞ ]  -> [ s e ]
-define siRule [ Ꮟ ]  -> [ s i ]
-define soRule [ Ꮠ ]  -> [ s o ]
-define suRule [ Ꮡ ]  -> [ s u ]
-define svRule [ Ꮢ ]  -> [ s v ]
+define saRule [ Ꮜ ]  -> [ s a ] ;
+define seRule [ Ꮞ ]  -> [ s e ] ;
+define siRule [ Ꮟ ]  -> [ s i ] ;
+define soRule [ Ꮠ ]  -> [ s o ] ;
+define suRule [ Ꮡ ]  -> [ s u ] ;
+define svRule [ Ꮢ ]  -> [ s v ] ;
 
-define daRule [ Ꮣ ]  -> [ d a ]
-define taRule [ Ꮤ ]  -> [ t a ]
-define deRule [ Ꮥ ]  -> [ d e ]
-define teRule [ Ꮦ ]  -> [ t e ]
-define diRule [ Ꮧ ]  -> [ d i ]
-define tiRule [ Ꮨ ]  -> [ t i ]
-define doRule [ Ꮩ ]  -> [ d o ]
-define duRule [ Ꮪ ]  -> [ d u ]
-define dvRule [ Ꮫ ]  -> [ d v ]
+define daRule [ Ꮣ ]  -> [ d a ] ;
+define taRule [ Ꮤ ]  -> [ t a ] ;
+define deRule [ Ꮥ ]  -> [ d e ] ;
+define teRule [ Ꮦ ]  -> [ t e ] ;
+define diRule [ Ꮧ ]  -> [ d i ] ;
+define tiRule [ Ꮨ ]  -> [ t i ] ;
+define doRule [ Ꮩ ]  -> [ d o ] ;
+define duRule [ Ꮪ ]  -> [ d u ] ;
+define dvRule [ Ꮫ ]  -> [ d v ] ;
 
-define waRule [ Ꮹ ]  -> [ w a ]
-define weRule [ Ꮺ ]  -> [ w e ]
-define wiRule [ Ꮻ ]  -> [ w i ]
-define woRule [ Ꮼ ]  -> [ w o ]
-define wuRule [ Ꮽ ]  -> [ w u ]
-define wvRule [ Ꮾ ]  -> [ w v ]
+define waRule [ Ꮹ ]  -> [ w a ] ;
+define weRule [ Ꮺ ]  -> [ w e ] ;
+define wiRule [ Ꮻ ]  -> [ w i ] ;
+define woRule [ Ꮼ ]  -> [ w o ] ;
+define wuRule [ Ꮽ ]  -> [ w u ] ;
+define wvRule [ Ꮾ ]  -> [ w v ] ;
 
-define yaRule [ Ꮿ ]  -> [ y a ]
-define yeRule [ Ᏸ ]  -> [ y e ]
-define yiRule [ Ᏹ ]  -> [ y i ]
-define yoRule [ Ᏺ ]  -> [ y o ]
-define yuRule [ Ᏻ ]  -> [ y u ]
-define yvRule [ Ᏼ ]  -> [ y v ]
+define yaRule [ Ꮿ ]  -> [ y a ] ;
+define yeRule [ Ᏸ ]  -> [ y e ] ;
+define yiRule [ Ᏹ ]  -> [ y i ] ;
+define yoRule [ Ᏺ ]  -> [ y o ] ;
+define yuRule [ Ᏻ ]  -> [ y u ] ;
+define yvRule [ Ᏼ ]  -> [ y v ] ;
 
 ! one letter symbols
 	
-define aRule [ Ꭰ ]  -> [ a ]
-define eRule [ Ꭱ ]  -> [ e ]
-define iRule [ Ꭲ ]  -> [ i ]
-define oRule [ Ꭳ ]  -> [ o ]
-define uRule [ Ꭴ ]  -> [ u ]
-define vRule [ Ꭵ ]  -> [ v ]
+define aRule [ Ꭰ ]  -> [ a ] ;
+define eRule [ Ꭱ ]  -> [ e ] ;
+define iRule [ Ꭲ ]  -> [ i ] ;
+define oRule [ Ꭳ ]  -> [ o ] ;
+define uRule [ Ꭴ ]  -> [ u ] ;
+define vRule [ Ꭵ ]  -> [ v ] ;
 
-define sRule [ Ꮝ ]  -> [ s ]
-
-! Western Cree remnant
-
-define FullStopRule [ ᙮ ] -> [ %. ] ;
+define sRule [ Ꮝ ]  -> [ s ] ;
 
 read regex [ hnaRule
 .o. nahRule
@@ -212,6 +208,4 @@ read regex [ hnaRule
 .o. uRule
 .o. vRule
 
-.o. sRule
-
-.o. FullStopRule ] ; 
+.o. sRule ] ; 
