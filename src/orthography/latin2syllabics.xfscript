@@ -1,10 +1,11 @@
-! Script for syll to latin for Cherokee, 
+! Script for latin to syllabics for Cherokee, 
 
 ! Keyboard legend (still in Western Cree)
 ! ᐊ  ᐸ  ᑕ  ᑲ  ᒐ  ᒪ  ᓇ  ᓴ  ᔭ
 ! a  pa ta ka ca ma na sa ya 
 ! Rows: B = a, C = o, D = i, E = e
 ! Thus, key B01 = a, D08 = si, etc.
+
 
 ! Capital to minuscule letters
 
@@ -36,143 +37,114 @@ define Decapitalisation [ A -> a ,
                           Z -> z ]
                           ;
 
-define Decapitalization [ a -> A ,
-                          b -> B ,
-                          c -> C ,
-                          d -> D ,
-                          e -> E ,
-                          f -> F ,
-                          g -> G ,
-                          h -> H ,
-                          i -> I ,
-                          j -> J ,
-                          k -> K ,
-                          l -> L ,
-                          m -> M ,
-                          n -> N ,
-                          o -> O ,
-                          p -> P ,
-                          q -> Q ,
-                          s -> S ,
-                          t -> T ,
-                          u -> U ,
-                          v -> V ,
-                          w -> W ,
-                          x -> X ,
-                          y -> Y ,
-                          Z -> z ]
-                          ;
 
 ! three letter symbols
 
-define hnaRule [ Ꮏ ]  -> [ h n a ] ;
-define nahRule [ Ꮐ ]  -> [ n a h ] ;
+define hnaRule [ h n a ] -> Ꮏ ;
+define nahRule [ n a h ] -> Ꮐ ;
 
-define quaRule [ Ꮖ ]  -> [ q u a ] ;
-define queRule [ Ꮗ ]  -> [ q u e ] ;
-define quiRule [ Ꮘ ]  -> [ q u i ] ;
-define quoRule [ Ꮙ ]  -> [ q u o ] ;
-define quuRule [ Ꮚ ]  -> [ q u u ] ;
-define quvRule [ Ꮛ ]  -> [ q u v ] ;
+define quaRule [ q u a ] -> Ꮖ ;
+define queRule [ q u e ] -> Ꮗ ;
+define quiRule [ q u i ] -> Ꮘ ;
+define quoRule [ q u o ] -> Ꮙ ;
+define quuRule [ q u u ] -> Ꮚ ;
+define quvRule [ q u v ] -> Ꮛ ;
 
-define dlaRule [ Ꮬ ]  -> [ d l a ] ;
-define tlaRule [ Ꮭ ]  -> [ t l a ] ;
-define tleRule [ Ꮮ ]  -> [ t l e ] ;
-define tliRule [ Ꮯ ]  -> [ t l i ] ;
-define tloRule [ Ꮰ ]  -> [ t l o ] ;
-define tluRule [ Ꮱ ]  -> [ t l u ] ;
-define tlvRule [ Ꮲ ]  -> [ t l v ] ;
-define tsaRule [ Ꮳ ]  -> [ t s a ] ;
-define tseRule [ Ꮴ ]  -> [ t s e ] ;
-define tsiRule [ Ꮵ ]  -> [ t s i ] ;
-define tsoRule [ Ꮶ ]  -> [ t s o ] ;
-define tsuRule [ Ꮷ ]  -> [ t s u ] ;
-define tsvRule [ Ꮸ ]  -> [ t s v ] ;
+define dlaRule [ d l a ] -> Ꮬ ;
+define tlaRule [ t l a ] -> Ꮭ ;
+define tleRule [ t l e ] -> Ꮮ ;
+define tliRule [ t l i ] -> Ꮯ ;
+define tloRule [ t l o ] -> Ꮰ ;
+define tluRule [ t l u ] -> Ꮱ ;
+define tlvRule [ t l v ] -> Ꮲ ;
+define tsaRule [ t s a ] -> Ꮳ ;
+define tseRule [ t s e ] -> Ꮴ ;
+define tsiRule [ t s i ] -> Ꮵ ;
+define tsoRule [ t s o ] -> Ꮶ ;
+define tsuRule [ t s u ] -> Ꮷ ;
+define tsvRule [ t s v ] -> Ꮸ ;
 	
 ! two letter symbols
 
-define gaRule [ Ꭶ ]  -> [ g a ] ;
-define kaRule [ Ꭷ ]  -> [ k a ] ;
-define geRule [ Ꭸ ]  -> [ g e ] ;
-define giRule [ Ꭹ ]  -> [ g i ] ;
-define goRule [ Ꭺ ]  -> [ g o ] ;
-define guRule [ Ꭻ ]  -> [ g u ] ;
-define gvRule [ Ꭼ ]  -> [ g v ] ;
+define gaRule [ g a ] -> Ꭶ ;
+define kaRule [ k a ] -> Ꭷ ;
+define geRule [ g e ] -> Ꭸ ;
+define giRule [ g i ] -> Ꭹ ;
+define goRule [ g o ] -> Ꭺ ;
+define guRule [ g u ] -> Ꭻ ;
+define gvRule [ g v ] -> Ꭼ ;
 
-define haRule [ Ꭽ ]  -> [ h a ] ;
-define heRule [ Ꭾ ]  -> [ h e ] ;
-define hiRule [ Ꭿ ]  -> [ h i ] ;
-define hoRule [ Ꮀ ]  -> [ h o ] ;
-define huRule [ Ꮁ ]  -> [ h u ] ;
-define hvRule [ Ꮂ ]  -> [ h v ] ;
+define haRule [ h a ] -> Ꭽ ;
+define heRule [ h e ] -> Ꭾ ;
+define hiRule [ h i ] -> Ꭿ ;
+define hoRule [ h o ] -> Ꮀ ;
+define huRule [ h u ] -> Ꮁ ;
+define hvRule [ h v ] -> Ꮂ ;
 
-define laRule [ Ꮃ ]  -> [ l a ] ;
-define leRule [ Ꮄ ]  -> [ l e ] ;
-define liRule [ Ꮅ ]  -> [ l i ] ;
-define loRule [ Ꮆ ]  -> [ l o ] ;
-define luRule [ Ꮇ ]  -> [ l u ] ;
-define lvRule [ Ꮈ ]  -> [ l v ] ;
+define laRule [ l a ] -> Ꮃ ;
+define leRule [ l e ] -> Ꮄ ;
+define liRule [ l i ] -> Ꮅ ;
+define loRule [ l o ] -> Ꮆ ;
+define luRule [ l u ] -> Ꮇ ;
+define lvRule [ l v ] -> Ꮈ ;
 
-define maRule [ Ꮉ ]  -> [ m a ] ;
-define meRule [ Ꮊ ]  -> [ m e ] ;
-define miRule [ Ꮋ ]  -> [ m i ] ;
-define moRule [ Ꮌ ]  -> [ m o ] ;
-define muRule [ Ꮍ ]  -> [ m u ] ;
-define naRule [ Ꮎ ]  -> [ n a ] ;
+define maRule [ m a ] -> Ꮉ ;
+define meRule [ m e ] -> Ꮊ ;
+define miRule [ m i ] -> Ꮋ ;
+define moRule [ m o ] -> Ꮌ ;
+define muRule [ m u ] -> Ꮍ ;
+define naRule [ n a ] -> Ꮎ ;
 
-define neRule [ Ꮑ ]  -> [ n e ] ;
-define niRule [ Ꮒ ]  -> [ n i ] ;
-define noRule [ Ꮓ ]  -> [ n o ] ;
-define nuRule [ Ꮔ ]  -> [ n u ] ;
-define nvRule [ Ꮕ ]  -> [ n v ] ;
+define neRule [ n e ] -> Ꮑ ;
+define niRule [ n i ] -> Ꮒ ;
+define noRule [ n o ] -> Ꮓ ;
+define nuRule [ n u ] -> Ꮔ ;
+define nvRule [ n v ] -> Ꮕ ;
 	
-define saRule [ Ꮜ ]  -> [ s a ] ;
-define seRule [ Ꮞ ]  -> [ s e ] ;
-define siRule [ Ꮟ ]  -> [ s i ] ;
-define soRule [ Ꮠ ]  -> [ s o ] ;
-define suRule [ Ꮡ ]  -> [ s u ] ;
-define svRule [ Ꮢ ]  -> [ s v ] ;
+define saRule [ s a ] -> Ꮜ ;
+define seRule [ s e ] -> Ꮞ ;
+define siRule [ s i ] -> Ꮟ ;
+define soRule [ s o ] -> Ꮠ ;
+define suRule [ s u ] -> Ꮡ ;
+define svRule [ s v ] -> Ꮢ ;
 
-define daRule [ Ꮣ ]  -> [ d a ] ;
-define taRule [ Ꮤ ]  -> [ t a ] ;
-define deRule [ Ꮥ ]  -> [ d e ] ;
-define teRule [ Ꮦ ]  -> [ t e ] ;
-define diRule [ Ꮧ ]  -> [ d i ] ;
-define tiRule [ Ꮨ ]  -> [ t i ] ;
-define doRule [ Ꮩ ]  -> [ d o ] ;
-define duRule [ Ꮪ ]  -> [ d u ] ;
-define dvRule [ Ꮫ ]  -> [ d v ] ;
+define daRule [ d a ] -> Ꮣ ;
+define taRule [ t a ] -> Ꮤ ;
+define deRule [ d e ] -> Ꮥ ;
+define teRule [ t e ] -> Ꮦ ;
+define diRule [ d i ] -> Ꮧ ;
+define tiRule [ t i ] -> Ꮨ ;
+define doRule [ d o ] -> Ꮩ ;
+define duRule [ d u ] -> Ꮪ ;
+define dvRule [ d v ] -> Ꮫ ;
 
-define waRule [ Ꮹ ]  -> [ w a ] ;
-define weRule [ Ꮺ ]  -> [ w e ] ;
-define wiRule [ Ꮻ ]  -> [ w i ] ;
-define woRule [ Ꮼ ]  -> [ w o ] ;
-define wuRule [ Ꮽ ]  -> [ w u ] ;
-define wvRule [ Ꮾ ]  -> [ w v ] ;
+define waRule [ w a ] -> Ꮹ ;
+define weRule [ w e ] -> Ꮺ ;
+define wiRule [ w i ] -> Ꮻ ;
+define woRule [ w o ] -> Ꮼ ;
+define wuRule [ w u ] -> Ꮽ ;
+define wvRule [ w v ] -> Ꮾ ;
 
-define yaRule [ Ꮿ ]  -> [ y a ] ;
-define yeRule [ Ᏸ ]  -> [ y e ] ;
-define yiRule [ Ᏹ ]  -> [ y i ] ;
-define yoRule [ Ᏺ ]  -> [ y o ] ;
-define yuRule [ Ᏻ ]  -> [ y u ] ;
-define yvRule [ Ᏼ ]  -> [ y v ] ;
+define yaRule [ y a ] -> Ꮿ ;
+define yeRule [ y e ] -> Ᏸ ;
+define yiRule [ y i ] -> Ᏹ ;
+define yoRule [ y o ] -> Ᏺ ;
+define yuRule [ y u ] -> Ᏻ ;
+define yvRule [ y v ] -> Ᏼ ;
 
 ! one letter symbols
 	
-define aRule [ Ꭰ ]  -> [ a ] ;
-define eRule [ Ꭱ ]  -> [ e ] ;
-define iRule [ Ꭲ ]  -> [ i ] ;
-define oRule [ Ꭳ ]  -> [ o ] ;
-define uRule [ Ꭴ ]  -> [ u ] ;
-define vRule [ Ꭵ ]  -> [ v ] ;
+define aRule [ a ] -> Ꭰ ;
+define eRule [ e ] -> Ꭱ ;
+define iRule [ i ] -> Ꭲ ;
+define oRule [ o ] -> Ꭳ ;
+define uRule [ u ] -> Ꭴ ;
+define vRule [ v ] -> Ꭵ ;
 
-define sRule [ Ꮝ ]  -> [ s ] ;
+define sRule [ s ] -> Ꮝ ;
 
-! hyphen for forcing selection of certain syllabic signs
-
-define hyphenRule 0 -> [ %- ] ;
-
-read regex [ Decapitalization .o. hnaRule
+read regex [ Decapitalisation
+.o. hnaRule
 .o. nahRule
 
 .o. quaRule
@@ -269,4 +241,6 @@ read regex [ Decapitalization .o. hnaRule
 .o. uRule
 .o. vRule
 
-.o. sRule .o. hyphenRule ] ; 
+.o. sRule ] ; 
+
+invert net
