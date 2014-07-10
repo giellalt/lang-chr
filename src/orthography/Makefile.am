@@ -44,6 +44,24 @@ GT_TEST_ORTH_XFSTS=$(GT_ORTHOGRAPHIC_XFSTS:.xfst=.inv.xfst)
 
 endif
 
+####### Local source files: ########
+
+GT_ORTHOGRAPHIC_SRCS+=syllabics2latin.xfscript
+
+####### Local targets: ########
+
+if CAN_HFST
+GT_ORTHOGRAPHIC_FSTS+=syllabics2latin.hfst \
+					  latin2syllabics.hfst
+endif
+
+if CAN_XFST
+GT_ORTHOGRAPHIC_FSTS+=syllabics2latin.xfst \
+					  latin2syllabics.xfst
+endif
+
+####### END Local targets ########
+
 # This pattern rule is required to block inversion of the xfscript fst's.
 # We do want inversion in the general case, but not for the orthographic fst's.
 %.hfst: %.tmp.hfst
