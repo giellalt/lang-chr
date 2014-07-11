@@ -143,6 +143,8 @@ define vRule [ v ] -> Ꭵ ;
 
 define sRule [ s ] -> Ꮝ ;
 
+define hyphenRule [ %- ] -> 0 ;
+
 read regex [ Decapitalisation
 .o. hnaRule
 .o. nahRule
@@ -241,6 +243,8 @@ read regex [ Decapitalisation
 .o. uRule
 .o. vRule
 
-.o. sRule ] ; 
+.o. sRule
+
+.o. hyphenRule ] ; 
 
 invert net
