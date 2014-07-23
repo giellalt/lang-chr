@@ -1,7 +1,6 @@
 !! Verb inflection
 !! ---------------
 
-
 ! vim: set ft=xfst-lexc:
 
 LEXICON VerbPrefixes
@@ -199,8 +198,8 @@ LEXICON Suffix_Present_ga
 +V+Pres:Ꭶ  PersonFeatures ;
 
 LEXICON Suffix_Present_a
-! +V+Pres:a  PersonFeatures ;
 +V+Pres:Ꭰ  PersonFeatures ;
+! +V+Pres:a  PersonFeatures ;
 ! +V+Pres:D  PersonFeatures ; ! Checking how this works
 
 LEXICON Suffix_Habitual_hoi
