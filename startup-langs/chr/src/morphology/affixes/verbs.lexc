@@ -1,7 +1,5 @@
 !! Verb inflection
-
 !! ---------------
-
 ! vim: set ft=xfst-lexc:
 
 LEXICON VerbPrefixes
@@ -131,7 +129,7 @@ LEXICON Verb_Prefixes_Int2
 < 0:u 0:w 0:a "@U.prefix.3sg@" > Stems_Infinitive_Int2 ;
 < 0:i 0:n 0:i "@U.prefix.Idl@" > Stems_Present_Int2 ;
 < 0:i 0:n 0:i "@U.prefix.Idl@" > Stems_Habitual_Int2 ;
-< 0:da 0:n 0:i "@U.prefix.Idl@" > Stems_Future_Int2 ;
+< 0:d 0:a 0:n 0:i "@U.prefix.Idl@" > Stems_Future_Int2 ;
 < 0:i 0:n 0:i "@U.prefix.Idl@" > Stems_FutImp_Int2 ;
 < 0:g 0:i 0:n 0:i "@U.prefix.Idl@" > Stems_RemPast_Int2 ;
 < 0:g 0:i 0:n 0:i "@U.prefix.Idl@" > Stems_RepPast_Int2 ;
