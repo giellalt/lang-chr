@@ -200,7 +200,7 @@ LEXICON Suffix_Present_ga
 LEXICON Suffix_Present_a
 +V+Pres:Ꭰ  PersonFeatures ;
 ! +V+Pres:a  PersonFeatures ;
-! +V+Pres:D  PersonFeatures ; ! Checking how this works
+! +V+Pres:D  PersonFeatures ; ! The use of the Latin capital D works but not the visually similary Cherokee syllabic sign.
 
 LEXICON Suffix_Habitual_hoi
 +V+Hab:ᎰᎢ  PersonFeatures ;
