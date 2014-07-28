@@ -1,3 +1,16 @@
+# With V+Pres+3sg stems
+
+ᎦᏰᎠ	s/he eats s.t. (animate)
+ᎦᎧᎲᎠ	s/he takes and leaves s.t. (animate)
+ᎦᏂᏙᎭ	s/he handles s.t. (animate)
+ᎦᏃᎯᎭ	s/he brings s.t. (animate) by carrying in hand/hands
+ᎦᎶᎣᏍᎦ	s/he passes by without stopping
+ᎦᎾᏩᏘᎭ	s/he finds s.t. (flexible or animate)
+ᎦᏁᏦᎯᎭ	s/he brings s.t. (liquid)
+ᎦᏁᏩᏘᎭ	s/he finds s.t. (liquid)
+
+# Earlier attempt with stems
+
 ᎧᎲ	kahv	s/he takes and leaves s.t. (animate) 
 ᎶᎣ	loo	s/he passes by without stopping; s/he passes s.t. (exam); s/she falls from an elevated position
 ᎶᎣᎯ	loohi   s/he overtakes s.o. or s.t.; s/he stops by on the way somewhere
