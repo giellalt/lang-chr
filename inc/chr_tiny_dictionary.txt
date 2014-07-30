@@ -1,13 +1,13 @@
 # With V+Pres+3sg stems
 
-ᎦᏰᎠ	s/he eats s.t. (animate)
-ᎦᎧᎲᎠ	s/he takes and leaves s.t. (animate)
-ᎦᏂᏙᎭ	s/he handles s.t. (animate)
-ᎦᏃᎯᎭ	s/he brings s.t. (animate) by carrying in hand/hands
-ᎦᎶᎣᏍᎦ	s/he passes by without stopping
-ᎦᎾᏩᏘᎭ	s/he finds s.t. (flexible or animate)
-ᎦᏁᏦᎯᎭ	s/he brings s.t. (liquid)
-ᎦᏁᏩᏘᎭ	s/he finds s.t. (liquid)
+ᎦᏰᎠ	s/he eats s.t. (animate) #
+ᎦᎧᎲᎠ	s/he leaves s.t. behind (animate) # 
+ᎦᏂᏙᎭ	s/he handles s.t. (animate) #
+ᎦᏃᎯᎭ	s/he brings s.t. (animate) (by carrying in hand/hands) #
+ᎦᎶᎣᏍᎦ	s/he fall from an elevated position (animate) #
+ᎦᎾᏩᏘᎭ	s/he finds s.t. (flexible or animate) #
+ᎦᏁᏦᎯᎭ	s/he brings s.t. (liquid) #
+ᎦᏁᏩᏘᎭ	s/he finds s.t. (liquid) #
 
 # Earlier attempt with stems
 
