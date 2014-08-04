@@ -29,6 +29,7 @@ GT_LEXC_SRCS=\
 			 stems/numerals.lexc \
 			 stems/prefixes.lexc \
 			 stems/pronouns.lexc \
+			 stems/punctuation.lexc \
 			 stems/verbs.lexc
 
 # Set this to the names of all generated lexc files, if any
