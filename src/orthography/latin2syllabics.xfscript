@@ -246,5 +246,3 @@ read regex [ Decapitalisation
 .o. sRule
 
 .o. hyphenRule ] ; 
-
-invert net

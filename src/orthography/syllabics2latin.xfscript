@@ -214,6 +214,3 @@ read regex [ hnaRule
 .o. vRule
 
 .o. sRule ] ; 
-
-invert net
-
