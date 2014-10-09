@@ -1,4 +1,11 @@
-$Rev: 100878 $
+$Rev: 100989 $
+Renamed AWK to GAWK in relevant places to get around another AWK test. Now gawk
+is found properly in all cases.
+
+r100985:
+Improved test for gnu awk.
+
+r100878:
 Require newest core to force people to upgrade to get an important bugfix.
 
 r100786:
