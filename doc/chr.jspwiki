@@ -13,7 +13,7 @@ This is free and open source South Sámi morphology.
 
 This file shows the Cherokee multichar symbols and initial lexica.
 
- !!!Multichar_Symbols definitions
+ !!!Definitions for Multichar_Symbols
 
 !!Analysis symbols
 ----------------
@@ -63,14 +63,11 @@ The nominals are inflected in the following Number
 
 The verbs can have the following morphological features:
 
- * +1sg    =
- * +2dl    =
- * +2pl    =
- * +2sg    =
- * +3pl    =
- * +3sg    =
- * +Edl    =
- * +Epl    =
+
+
+
+
+
  * +Fut    =
  * +FutImp    =
  * +Hab    =
@@ -78,8 +75,8 @@ The verbs can have the following morphological features:
  * +ImmPast    =
  * +Inf    =
  * +Ipl    =
- * +Pres    =
- * +PresImp    =
+ * +Prs    =
+ * +PrsImp    =
  * +RemPast    =
  * +RepPast    =
 
@@ -95,6 +92,21 @@ Verb prefixes
  * @U.prefix.Epl@    =
  * @U.prefix.Idl@    =
  * @U.prefix.Ipl@    =
+
+
+The TAM flags
+ * @U.TAM.Present@      = 
+ * @U.TAM.Habitual@     = 
+ * @U.TAM.Future@       = 
+ * @U.TAM.FutImp@       = 
+ * @U.TAM.RemPast@      = 
+ * @U.TAM.RepPast@      = 
+ * @U.TAM.ImmPast@      = 
+ * @U.TAM.PrsImp@       = 
+ * @U.TAM.Infinitive@   = 
+
+
+
 
 
 
