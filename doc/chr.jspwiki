@@ -1,14 +1,14 @@
-!!!Free and Open source Finnish analyser gtsvn-fi
+!!!Free and Open source Cherokee analyser giella-chr
 
-;Authors: Divvun and Giellatekno teams, Aajege, community members
+;Authors: Divvun and Giellatekno teams, community members
 ;Software version: 2012
 ;Documentation license: GNU GFDL
 ;SVN Revision: $Revision: 68217 $
 ;SVN Date: $Date: 2013-01-16 11:31:33 +0200 (Wed, 16 Jan 2013) $
 
-!!!GTSVN-sma
+!!!giella-chr
 
-This is free and open source South Sámi morphology.
+This is free and open source Cherokee morphology.
 
 
 This file shows the Cherokee multichar symbols and initial lexica.
@@ -63,11 +63,14 @@ The nominals are inflected in the following Number
 
 The verbs can have the following morphological features:
 
-
-
-
-
-
+ * +1sg    =
+ * +2dl    =
+ * +2pl    =
+ * +2sg    =
+ * +3pl    =
+ * +3sg    =
+ * +Edl    =
+ * +Epl    =
  * +Fut    =
  * +FutImp    =
  * +Hab    =
@@ -75,8 +78,8 @@ The verbs can have the following morphological features:
  * +ImmPast    =
  * +Inf    =
  * +Ipl    =
- * +Prs    =
- * +PrsImp    =
+ * +Pres    =
+ * +PresImp    =
  * +RemPast    =
  * +RepPast    =
 
@@ -92,21 +95,6 @@ Verb prefixes
  * @U.prefix.Epl@    =
  * @U.prefix.Idl@    =
  * @U.prefix.Ipl@    =
-
-
-The TAM flags
- * @U.TAM.Present@      = 
- * @U.TAM.Habitual@     = 
- * @U.TAM.Future@       = 
- * @U.TAM.FutImp@       = 
- * @U.TAM.RemPast@      = 
- * @U.TAM.RepPast@      = 
- * @U.TAM.ImmPast@      = 
- * @U.TAM.PrsImp@       = 
- * @U.TAM.Infinitive@   = 
-
-
-
 
 
 
