@@ -4,355 +4,133 @@
 ! vim: set ft=xfst-lexc:
 
 LEXICON VerbPrefixes
-Verb_Prefixes_Int1 ; !
-Verb_Prefixes_Int2 ; !
-
-LEXICON Verb_Prefixes_Int1
-
-< 0:Ꭰ 0:Ꭹ "@U.personprefix.1sg@" > Stems_Infinitive_Int1 ; !
-< 0:Ꭰ 0:Ꭹ "@U.personprefix.1sg@" > Stems_RemPast_Int1 ; !
-< 0:Ꭰ 0:Ꭹ "@U.personprefix.1sg@" > Stems_RepPast_Int1 ; !
 
-< 0:Ꭰ 0:Ꮒ "@U.personprefix.3pl@" > Stems_FutImp_Int1 ; !
-< 0:Ꭰ 0:Ꮒ "@U.personprefix.3pl@" > Stems_Habitual_Int1 ; !
-< 0:Ꭰ 0:Ꮒ "@U.personprefix.3pl@" > Stems_ImmPast_Int1 ; !
-< 0:Ꭰ 0:Ꮒ "@U.personprefix.3pl@" > Stems_Present_Int1 ; !
-
-< 0:Ꭲ 0:Ꭹ "@U.personprefix.Ipl@" > Stems_Infinitive_Int1 ; !
-< 0:Ꭲ 0:Ꭹ "@U.personprefix.Ipl@" > Stems_RemPast_Int1 ; !
-< 0:Ꭲ 0:Ꭹ "@U.personprefix.Ipl@" > Stems_RepPast_Int1 ; !
-
-< 0:Ꭲ 0:Ꮒ "@U.personprefix.Idl@" > Stems_FutImp_Int1 ; !
-< 0:Ꭲ 0:Ꮒ "@U.personprefix.Idl@" > Stems_Habitual_Int1 ; !
-< 0:Ꭲ 0:Ꮒ "@U.personprefix.Idl@" > Stems_ImmPast_Int1 ; !
-< 0:Ꭲ 0:Ꮒ "@U.personprefix.Idl@" > Stems_PresImp_Int1 ; !
-< 0:Ꭲ 0:Ꮒ "@U.personprefix.Idl@" > Stems_Present_Int1 ; !
 
-< 0:Ꭲ 0:Ꮧ "@U.personprefix.Ipl@" > Stems_FutImp_Int1 ; !
-< 0:Ꭲ 0:Ꮧ "@U.personprefix.Ipl@" > Stems_Habitual_Int1 ; !
-< 0:Ꭲ 0:Ꮧ "@U.personprefix.Ipl@" > Stems_ImmPast_Int1 ; !
-< 0:Ꭲ 0:Ꮧ "@U.personprefix.Ipl@" > Stems_PresImp_Int1 ; !
-< 0:Ꭲ 0:Ꮧ "@U.personprefix.Ipl@" > Stems_Present_Int1 ; !
 
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_FutImp_Int1 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_Habitual_Int1 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_ImmPast_Int1 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_Infinitive_Int1 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_PresImp_Int1 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_Present_Int1 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_RemPast_Int1 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_RepPast_Int1 ; !
-
-< 0:Ꭳ 0:Ꭹ "@U.personprefix.Epl@" > Stems_Infinitive_Int1 ; !
-< 0:Ꭳ 0:Ꭹ "@U.personprefix.Epl@" > Stems_RemPast_Int1 ; !
-< 0:Ꭳ 0:Ꭹ "@U.personprefix.Epl@" > Stems_RepPast_Int1 ; !
-
-< 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.personprefix.Edl@" > Stems_Infinitive_Int1 ; !
-< 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.personprefix.Edl@" > Stems_RemPast_Int1 ; !
-< 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.personprefix.Edl@" > Stems_RepPast_Int1 ; !
-
-< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.personprefix.Edl@" > Stems_FutImp_Int1 ; !
-< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.personprefix.Edl@" > Stems_Habitual_Int1 ; !
-< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.personprefix.Edl@" > Stems_ImmPast_Int1 ; !
-< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.personprefix.Edl@" > Stems_Present_Int1 ; !
-
-< 0:Ꭳ 0:Ꮵ "@U.personprefix.Epl@" > Stems_FutImp_Int1 ; !
-< 0:Ꭳ 0:Ꮵ "@U.personprefix.Epl@" > Stems_Habitual_Int1 ; !
-< 0:Ꭳ 0:Ꮵ "@U.personprefix.Epl@" > Stems_ImmPast_Int1 ; !
-< 0:Ꭳ 0:Ꮵ "@U.personprefix.Epl@" > Stems_Present_Int1 ; !
-
-< 0:Ꭴ "@U.personprefix.3sg@" > Stems_Infinitive_Int1 ; !
-< 0:Ꭴ "@U.personprefix.3sg@" > Stems_RemPast_Int1 ; !
-< 0:Ꭴ "@U.personprefix.3sg@" > Stems_RepPast_Int1 ; !
-
-< 0:Ꭴ 0:Ꮒ "@U.personprefix.3pl@" > Stems_Infinitive_Int1 ; !
-< 0:Ꭴ 0:Ꮒ "@U.personprefix.3pl@" > Stems_RemPast_Int1 ; !
-< 0:Ꭴ 0:Ꮒ "@U.personprefix.3pl@" > Stems_RepPast_Int1 ; !
-
-< 0:Ꭶ "@U.personprefix.3sg@" > Stems_FutImp_Int1 ; !
-< 0:Ꭶ "@U.personprefix.3sg@" > Stems_Habitual_Int1 ; !
-< 0:Ꭶ "@U.personprefix.3sg@" > Stems_ImmPast_Int1 ; !
-< 0:Ꭶ "@U.personprefix.3sg@" > Stems_Present_Int1 ; !
-
-< 0:Ꭹ 0:Ꮒ "@U.personprefix.Idl@" > Stems_Infinitive_Int1 ; !
-< 0:Ꭹ 0:Ꮒ "@U.personprefix.Idl@" > Stems_RemPast_Int1 ; !
-< 0:Ꭹ 0:Ꮒ "@U.personprefix.Idl@" > Stems_RepPast_Int1 ; !
-
-< 0:Ꭿ "@U.personprefix.2sg@" > Stems_FutImp_Int1 ; !
-< 0:Ꭿ "@U.personprefix.2sg@" > Stems_Habitual_Int1 ; !
-< 0:Ꭿ "@U.personprefix.2sg@" > Stems_ImmPast_Int1 ; !
-< 0:Ꭿ "@U.personprefix.2sg@" > Stems_PresImp_Int1 ; !
-< 0:Ꭿ "@U.personprefix.2sg@" > Stems_Present_Int1 ; !
-
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_FutImp_Int1 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_Habitual_Int1 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_ImmPast_Int1 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_Infinitive_Int1 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_PresImp_Int1 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_Present_Int1 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_RemPast_Int1 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_RepPast_Int1 ; !
-
-< 0:Ꮣ 0:Ꭶ "@U.personprefix.3sg@" > Stems_Future_Int1 ; !
-
-< 0:Ꮣ 0:Ꮒ "@U.personprefix.Idl@" > Stems_Future_Int1 ; !
-
-< 0:Ꮣ 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_Future_Int1 ; !
-
-< 0:Ꮣ 0:Ꮧ "@U.personprefix.Ipl@" > Stems_Future_Int1 ; !
-
-< 0:Ꮣ 0:Ꮵ "@U.personprefix.1sg@" > Stems_Future_Int1 ; !
-< 0:Ꮣ 0:Ꮵ "@U.personprefix.2pl@" > Stems_Future_Int1 ; !
-
-< 0:Ꮣ 0:Ᏺ 0:Ꮝ 0:Ꮧ "@U.personprefix.Edl@" > Stems_Future_Int1 ; !
-
-< 0:Ꮣ 0:Ᏺ 0:Ꮵ "@U.personprefix.Epl@" > Stems_Future_Int1 ; !
-
-< 0:Ꮨ "@U.personprefix.2sg@" > Stems_Future_Int1 ; !
-
-< 0:Ꮫ 0:Ꮒ "@U.personprefix.3pl@" > Stems_Future_Int1 ; !
-
-< 0:Ꮳ "@U.personprefix.2sg@" > Stems_Infinitive_Int1 ; !
-< 0:Ꮳ "@U.personprefix.2sg@" > Stems_RemPast_Int1 ; !
-< 0:Ꮳ "@U.personprefix.2sg@" > Stems_RepPast_Int1 ; !
-
-< 0:Ꮵ "@U.personprefix.1sg@" > Stems_FutImp_Int1 ; !
-< 0:Ꮵ "@U.personprefix.1sg@" > Stems_Habitual_Int1 ; !
-< 0:Ꮵ "@U.personprefix.1sg@" > Stems_ImmPast_Int1 ; !
-< 0:Ꮵ "@U.personprefix.1sg@" > Stems_PresImp_Int1 ; !
-< 0:Ꮵ "@U.personprefix.1sg@" > Stems_Present_Int1 ; ! 
-
-< 0:Ꮹ 0:Ꮒ "@U.personprefix.3pl@" > Stems_PresImp_Int1 ; !
-
-< 0:Ꮻ 0:Ꭶ "@U.personprefix.3sg@" > Stems_PresImp_Int1 ; !
-
-< 0:Ꮼ 0:Ꮝ 0:Ꮧ "@U.personprefix.Edl@" > Stems_PresImp_Int1 ; !
-
-< 0:Ꮼ 0:Ꮵ "@U.personprefix.Epl@" > Stems_PresImp_Int1 ; !
-
-LEXICON Verb_Prefixes_Int2
-< 0:Ꮵ "@U.personprefix.1sg@" > Stems_Present_Int2 ; !
-< 0:Ꮵ "@U.personprefix.1sg@" > Stems_Habitual_Int2 ; !
-< 0:Ꮣ 0:Ꮵ "@U.personprefix.1sg@" > Stems_Future_Int2 ; !
-< 0:Ꮵ "@U.personprefix.1sg@" > Stems_FutImp_Int2 ; !
-< 0:Ꭰ 0:Ꭹ "@U.personprefix.1sg@" > Stems_RemPast_Int2 ; !
-< 0:Ꭰ 0:Ꭹ "@U.personprefix.1sg@" > Stems_RepPast_Int2 ; !
-< 0:Ꮵ "@U.personprefix.1sg@" > Stems_ImmPast_Int2 ; !
-< 0:Ꮵ "@U.personprefix.1sg@" > Stems_PresImp_Int2 ; !
-< 0:Ꭰ 0:Ꭹ "@U.personprefix.1sg@" > Stems_Infinitive_Int2 ; !
-< 0:Ꭿ "@U.personprefix.2sg@" > Stems_Present_Int2 ; !
-< 0:Ꭿ "@U.personprefix.2sg@" > Stems_Habitual_Int2 ; !
-< 0:Ꮨ "@U.personprefix.2sg@" > Stems_Future_Int2 ; !
-< 0:Ꭿ "@U.personprefix.2sg@" > Stems_FutImp_Int2 ; !
-< 0:Ꮳ "@U.personprefix.2sg@" > Stems_RemPast_Int2 ; !
-< 0:Ꮳ "@U.personprefix.2sg@" > Stems_RepPast_Int2 ; !
-< 0:Ꭿ "@U.personprefix.2sg@" > Stems_ImmPast_Int2 ; !
-< 0:Ꭿ "@U.personprefix.2sg@" > Stems_PresImp_Int2 ; !
-< 0:Ꮳ "@U.personprefix.2sg@" > Stems_Infinitive_Int2 ; !
-< 0:Ꭶ "@U.personprefix.3sg@" > Stems_Present_Int2 ; !
-< 0:Ꭶ "@U.personprefix.3sg@" > Stems_Habitual_Int2 ; !
-< 0:Ꮣ 0:Ꭶ "@U.personprefix.3sg@" > Stems_Future_Int2 ; !
-< 0:Ꭶ "@U.personprefix.3sg@" > Stems_FutImp_Int2 ; !
-< 0:Ꭴ 0:Ꮹ "@U.personprefix.3sg@" > Stems_RemPast_Int2 ; !
-< 0:Ꭴ 0:Ꮹ "@U.personprefix.3sg@" > Stems_RepPast_Int2 ; !
-< 0:Ꭶ "@U.personprefix.3sg@" > Stems_ImmPast_Int2 ; !
-< 0:Ꮻ 0:Ꭶ "@U.personprefix.3sg@" > Stems_PresImp_Int2 ; !
-< 0:Ꭴ 0:Ꮹ "@U.personprefix.3sg@" > Stems_Infinitive_Int2 ; !
-< 0:Ꭲ 0:Ꮒ "@U.personprefix.Idl@" > Stems_Present_Int2 ; !
-< 0:Ꭲ 0:Ꮒ "@U.personprefix.Idl@" > Stems_Habitual_Int2 ; !
-< 0:Ꮣ 0:Ꮒ "@U.personprefix.Idl@" > Stems_Future_Int2 ; !
-< 0:Ꭲ 0:Ꮒ "@U.personprefix.Idl@" > Stems_FutImp_Int2 ; !
-< 0:Ꭹ 0:Ꮒ "@U.personprefix.Idl@" > Stems_RemPast_Int2 ; !
-< 0:Ꭹ 0:Ꮒ "@U.personprefix.Idl@" > Stems_RepPast_Int2 ; !
-< 0:Ꭲ 0:Ꮒ "@U.personprefix.Idl@" > Stems_ImmPast_Int2 ; !
-< 0:Ꭲ 0:Ꮒ "@U.personprefix.Idl@" > Stems_PresImp_Int2 ; !
-< 0:Ꭹ 0:Ꮒ "@U.personprefix.Idl@" > Stems_Infinitive_Int2 ; !
-< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.personprefix.Edl@" > Stems_Present_Int2 ; !
-< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.personprefix.Edl@" > Stems_Habitual_Int2 ; !
-< 0:Ꮣ 0:Ᏺ 0:Ꮝ 0:Ꮧ "@U.personprefix.Edl@" > Stems_Future_Int2 ; !
-< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.personprefix.Edl@" > Stems_FutImp_Int2 ; !
-< 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.personprefix.Edl@" > Stems_RemPast_Int2 ; !
-< 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.personprefix.Edl@" > Stems_RepPast_Int2 ; !
-< 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.personprefix.Edl@" > Stems_ImmPast_Int2 ; !
-< 0:Ꮼ 0:Ꮝ 0:Ꮧ "@U.personprefix.Edl@" > Stems_PresImp_Int2 ; !
-< 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.personprefix.Edl@" > Stems_Infinitive_Int2 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_Present_Int2 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_Habitual_Int2 ; !
-< 0:Ꮣ 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_Future_Int2 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_FutImp_Int2 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_RemPast_Int2 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_RepPast_Int2 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_ImmPast_Int2 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_PresImp_Int2 ; !
-< 0:Ꮝ 0:Ꮧ "@U.personprefix.2dl@" > Stems_Infinitive_Int2 ; !
-< 0:Ꭲ 0:Ꮧ "@U.personprefix.Ipl@" > Stems_Present_Int2 ; !
-< 0:Ꭲ 0:Ꮧ "@U.personprefix.Ipl@" > Stems_Habitual_Int2 ; !
-< 0:Ꮣ 0:Ꮧ "@U.personprefix.Ipl@" > Stems_Future_Int2 ; !
-< 0:Ꭲ 0:Ꮧ "@U.personprefix.Ipl@" > Stems_FutImp_Int2 ; !
-< 0:Ꭲ 0:Ꭹ "@U.personprefix.Ipl@" > Stems_RemPast_Int2 ; !
-< 0:Ꭲ 0:Ꭹ "@U.personprefix.Ipl@" > Stems_RepPast_Int2 ; !
-< 0:Ꭲ 0:Ꮧ "@U.personprefix.Ipl@" > Stems_ImmPast_Int2 ; !
-< 0:Ꭲ 0:Ꮧ "@U.personprefix.Ipl@" > Stems_PresImp_Int2 ; !
-< 0:Ꭲ 0:Ꭹ "@U.personprefix.Ipl@" > Stems_Infinitive_Int2 ; !
-< 0:Ꭳ 0:Ꮵ "@U.personprefix.Epl@" > Stems_Present_Int2 ; !
-< 0:Ꭳ 0:Ꮵ "@U.personprefix.Epl@" > Stems_Habitual_Int2 ; !
-< 0:Ꮣ 0:Ᏺ 0:Ꮵ "@U.personprefix.Epl@" > Stems_Future_Int2 ; !
-< 0:Ꭳ 0:Ꮵ "@U.personprefix.Epl@" > Stems_FutImp_Int2 ; !
-< 0:Ꭳ 0:Ꭹ "@U.personprefix.Epl@" > Stems_RemPast_Int2 ; !
-< 0:Ꭳ 0:Ꭹ "@U.personprefix.Epl@" > Stems_RepPast_Int2 ; !
-< 0:Ꭳ 0:Ꮵ "@U.personprefix.Epl@" > Stems_ImmPast_Int2 ; !
-< 0:Ꮼ 0:Ꮵ "@U.personprefix.Epl@" > Stems_PresImp_Int2 ; !
-< 0:Ꭳ 0:Ꭹ "@U.personprefix.Epl@" > Stems_Infinitive_Int2 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_Present_Int2 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_Habitual_Int2 ; !
-< 0:Ꮣ 0:Ꮵ "@U.personprefix.2pl@" > Stems_Future_Int2 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_FutImp_Int2 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_RemPast_Int2 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_RepPast_Int2 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_ImmPast_Int2 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_PresImp_Int2 ; !
-< 0:Ꭲ 0:Ꮵ "@U.personprefix.2pl@" > Stems_Infinitive_Int2 ; !
-< 0:Ꭰ 0:Ꮒ "@U.personprefix.3pl@" > Stems_Present_Int2 ; !
-< 0:Ꭰ 0:Ꮒ "@U.personprefix.3pl@" > Stems_Habitual_Int2 ; !
-< 0:Ꮫ 0:Ꮒ "@U.personprefix.3pl@" > Stems_Future_Int2 ; !
-< 0:Ꭰ 0:Ꮒ "@U.personprefix.3pl@" > Stems_FutImp_Int2 ; !
-< 0:Ꭴ 0:Ꮒ "@U.personprefix.3pl@" > Stems_RemPast_Int2 ; !
-< 0:Ꭴ 0:Ꮒ "@U.personprefix.3pl@" > Stems_RepPast_Int2 ; !
-< 0:Ꭰ 0:Ꮒ "@U.personprefix.3pl@" > Stems_ImmPast_Int2 ; !
-< 0:Ꮹ 0:Ꮒ "@U.personprefix.3pl@" > Stems_PresImp_Int2 ; !
-< 0:Ꭴ 0:Ꮒ "@U.personprefix.3pl@" > Stems_Infinitive_Int2 ; !
-
-LEXICON Suffix_Present_ha
-+V+Pres:Ꭽ  PersonFeatures ; !
-
-LEXICON Suffix_Present_ga
-+V+Pres:Ꭶ  PersonFeatures ; !
-
-LEXICON Suffix_Present_a
-+V+Pres:Ꭰ  PersonFeatures ; !
-! +V+Pres:a  PersonFeatures ; !
-! +V+Pres:D  PersonFeatures ; ! ! The use of the Latin capital D works but not the visually similary Cherokee syllabic sign.
-
-LEXICON Suffix_Habitual_hoi
-+V+Hab:ᎰᎢ  PersonFeatures ; !
-
-LEXICON Suffix_Habitual_goi
-+V+Hab:ᎪᎢ  PersonFeatures ; !
-
-LEXICON Suffix_Habitual_sgoi
-+V+Hab:ᏍᎪᎢ  PersonFeatures ; !
-
-LEXICON Suffix_Future_tli
-+V+Fut:Ꮯ  PersonFeatures ; !
-
-LEXICON Suffix_Future_si
-+V+Fut:Ꮟ  PersonFeatures ; !
-
-LEXICON Suffix_Future_hi
-+V+Fut:Ꭿ  PersonFeatures ; !
-
-LEXICON Suffix_Future_i
-+V+Fut:Ꭲ  PersonFeatures ; !
-
-LEXICON Suffix_Future_li
-+V+Fut:Ꮅ  PersonFeatures ; !
-
-LEXICON Suffix_FutImp_tlvi
-+V+FutImp:ᏢᎢ  PersonFeatures ; !
-
-LEXICON Suffix_FutImp_svi
-+V+FutImp:ᏒᎢ  PersonFeatures ; !
-
-LEXICON Suffix_FutImp_hvi
-+V+FutImp:ᎲᎢ  PersonFeatures ; !
-
-LEXICON Suffix_FutImp_vi
-+V+FutImp:ᎥᎢ  PersonFeatures ; !
-
-LEXICON Suffix_FutImp_lvi
-+V+FutImp:ᎸᎢ  PersonFeatures ; !
-
-LEXICON Suffix_RemPast_tlvi
-+V+RemPast:ᏢᎢ  PersonFeatures ; !
-
-LEXICON Suffix_RemPast_svi
-+V+RemPast:ᏒᎢ  PersonFeatures ; !
-
-LEXICON Suffix_RemPast_hvi
-+V+RemPast:ᎲᎢ  PersonFeatures ; !
-
-LEXICON Suffix_RemPast_vi
-+V+RemPast:ᎥᎢ  PersonFeatures ; !
-
-LEXICON Suffix_RemPast_lvi
-+V+RemPast:ᎸᎢ  PersonFeatures ; !
-
-LEXICON Suffix_RepPast_tlei
-+V+RepPast:ᏞᎢ  PersonFeatures ; !
-
-LEXICON Suffix_RepPast_sei
-+V+RepPast:ᏎᎢ  PersonFeatures ; !
-
-LEXICON Suffix_RepPast_hei
-+V+RepPast:ᎮᎢ  PersonFeatures ; !
-
-LEXICON Suffix_RepPast_ei
-+V+RepPast:ᎡᎢ  PersonFeatures ; !
-
-LEXICON Suffix_RepPast_lei
-+V+RepPast:ᎴᎢ  PersonFeatures ; !
-
-LEXICON Suffix_ImmPast_ga
-+V+ImmPast:Ꭶ  PersonFeatures ; !
-
-LEXICON Suffix_ImmPast_hi
-+V+ImmPast:Ꭿ  PersonFeatures ; !
-
-LEXICON Suffix_ImmPast_ta
-+V+ImmPast:Ꮤ  PersonFeatures ; !
-
-LEXICON Suffix_ImmPast_da
-+V+ImmPast:Ꮣ  PersonFeatures ; !
-
-LEXICON Suffix_ImmPast_na
-+V+ImmPast:Ꮎ  PersonFeatures ; !
-
-LEXICON Suffix_PresImp_ga
-+V+PresImp:Ꭶ  PersonFeatures ; !
-
-LEXICON Suffix_PresImp_hi
-+V+PresImp:Ꭿ  PersonFeatures ; !
-
-LEXICON Suffix_PresImp_ta
-+V+PresImp:Ꮤ  PersonFeatures ; !
-
-LEXICON Suffix_PresImp_da
-+V+PresImp:Ꮣ  PersonFeatures ; !
-
-LEXICON Suffix_PresImp_na
-+V+PresImp:Ꮎ  PersonFeatures ; !
-
-! LEXICON Suffix_ImmPast_ga
-! +V+ImmPast:Ꭶ  PersonFeatures ; !
-
-! LEXICON Suffix_ImmPast_hi
-! +V+ImmPast:Ꭿ  PersonFeatures ; !
-
-LEXICON Suffix_Infinitive_sdi
-+V+Inf:ᏍᏗ  PersonFeatures ; !
-
-LEXICON Suffix_Infinitive_di
-+V+Inf:Ꮧ  PersonFeatures ; !
-
-LEXICON PersonFeatures
-
-< "+1sg":0 "@U.personprefix.1sg@" > # ; !
-< "+2dl":0 "@U.personprefix.2dl@" > # ; !
-< "+2pl":0 "@U.personprefix.2pl@" > # ; !
-< "+2sg":0 "@U.personprefix.2sg@" > # ; !
-< "+3sg":0 "@U.personprefix.3sg@" > # ; !
-< "+3pl":0 "@U.personprefix.3pl@" > # ; !
-< "+Edl":0 "@U.personprefix.Edl@" > # ; !
-< "+Epl":0 "@U.personprefix.Epl@" > # ; !
-< "+Idl":0 "@U.personprefix.Idl@" > # ; !
-< "+Ipl":0 "@U.personprefix.Ipl@" > # ; !
+< "1Sg+":0 0:Ꮵ "@U.TAM.Present@"  > Verb_Stems ; !
+< "1Sg+":0 0:Ꮵ "@U.TAM.Habitual@"  > Verb_Stems ; !
+< "1Sg+":0 0:Ꮣ 0:Ꮵ "@U.TAM.Future@"  > Verb_Stems ; !
+< "1Sg+":0 0:Ꮵ "@U.TAM.FutImp@"  > Verb_Stems ; !
+< "1Sg+":0 0:Ꭰ 0:Ꭹ "@U.TAM.RemPast@"  > Verb_Stems ; !
+< "1Sg+":0 0:Ꭰ 0:Ꭹ "@U.TAM.RepPast@"  > Verb_Stems ; !
+< "1Sg+":0 0:Ꮵ "@U.TAM.ImmPast@"  > Verb_Stems ; !
+< "1Sg+":0 0:Ꮵ "@U.TAM.PrsImp@"  > Verb_Stems ; !
+< "1Sg+":0 0:Ꭰ 0:Ꭹ "@U.TAM.Infinitive@"  > Verb_Stems ; !
+
+< "2Sg+":0 0:Ꭿ "@U.TAM.Present@"  > Verb_Stems ; !
+< "2Sg+":0 0:Ꭿ "@U.TAM.Habitual@"  > Verb_Stems ; !
+< "2Sg+":0 0:Ꮨ "@U.TAM.Future@"  > Verb_Stems ; !
+< "2Sg+":0 0:Ꭿ "@U.TAM.FutImp@"  > Verb_Stems ; !
+< "2Sg+":0 0:Ꮳ "@U.TAM.RemPast@"  > Verb_Stems ; !
+< "2Sg+":0 0:Ꮳ "@U.TAM.RepPast@"  > Verb_Stems ; !
+< "2Sg+":0 0:Ꭿ "@U.TAM.ImmPast@"  > Verb_Stems ; !
+< "2Sg+":0 0:Ꭿ "@U.TAM.PrsImp@"  > Verb_Stems ; !
+< "2Sg+":0 0:Ꮳ "@U.TAM.Infinitive@"  > Verb_Stems ; !
+
+< "3Sg+":0 0:Ꭶ "@U.TAM.Present@"  > Verb_Stems ; !
+< "3Sg+":0 0:Ꭶ "@U.TAM.Habitual@"  > Verb_Stems ; !
+< "3Sg+":0 0:Ꮣ 0:Ꭶ "@U.TAM.Future@"  > Verb_Stems ; !
+< "3Sg+":0 0:Ꭶ "@U.TAM.FutImp@"  > Verb_Stems ; !
+< "3Sg+":0 0:Ꭴ 0:Ꮹ "@U.TAM.RemPast@"  > Verb_Stems ; !
+< "3Sg+":0 0:Ꭴ 0:Ꮹ "@U.TAM.RepPast@"  > Verb_Stems ; !
+< "3Sg+":0 0:Ꭶ "@U.TAM.ImmPast@"  > Verb_Stems ; !
+< "3Sg+":0 0:Ꮻ 0:Ꭶ "@U.TAM.PrsImp@"  > Verb_Stems ; !
+< "3Sg+":0 0:Ꭴ 0:Ꮹ "@U.TAM.Infinitive@"  > Verb_Stems ; !
+
+< "12Dl+":0 0:Ꭲ 0:Ꮒ "@U.TAM.Present@"  > Verb_Stems ; !
+< "12Dl+":0 0:Ꭲ 0:Ꮒ "@U.TAM.Habitual@"  > Verb_Stems ; !
+< "12Dl+":0 0:Ꮣ 0:Ꮒ "@U.TAM.Future@"  > Verb_Stems ; !
+< "12Dl+":0 0:Ꭲ 0:Ꮒ "@U.TAM.FutImp@"  > Verb_Stems ; !
+< "12Dl+":0 0:Ꭹ 0:Ꮒ "@U.TAM.RemPast@"  > Verb_Stems ; !
+< "12Dl+":0 0:Ꭹ 0:Ꮒ "@U.TAM.RepPast@"  > Verb_Stems ; !
+< "12Dl+":0 0:Ꭲ 0:Ꮒ "@U.TAM.ImmPast@"  > Verb_Stems ; !
+< "12Dl+":0 0:Ꭲ 0:Ꮒ "@U.TAM.PrsImp@"  > Verb_Stems ; !
+< "12Dl+":0 0:Ꭹ 0:Ꮒ "@U.TAM.Infinitive@"  > Verb_Stems ; !
+
+< "1Dl+":0 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.TAM.Present@"  > Verb_Stems ; !
+< "1Dl+":0 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.TAM.Habitual@"  > Verb_Stems ; !
+< "1Dl+":0 0:Ꮣ 0:Ᏺ 0:Ꮝ 0:Ꮧ "@U.TAM.Future@"  > Verb_Stems ; !
+< "1Dl+":0 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.TAM.FutImp@"  > Verb_Stems ; !
+< "1Dl+":0 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.TAM.RemPast@"  > Verb_Stems ; !
+< "1Dl+":0 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.TAM.RepPast@"  > Verb_Stems ; !
+< "1Dl+":0 0:Ꭳ 0:Ꮝ 0:Ꮧ "@U.TAM.ImmPast@"  > Verb_Stems ; !
+< "1Dl+":0 0:Ꮼ 0:Ꮝ 0:Ꮧ "@U.TAM.PrsImp@"  > Verb_Stems ; !
+< "1Dl+":0 0:Ꭳ 0:Ꭹ 0:Ꮒ "@U.TAM.Infinitive@"  > Verb_Stems ; !
+
+< "2Dl+":0 0:Ꮝ 0:Ꮧ "@U.TAM.Present@"  > Verb_Stems ; !
+< "2Dl+":0 0:Ꮝ 0:Ꮧ "@U.TAM.Habitual@"  > Verb_Stems ; !
+< "2Dl+":0 0:Ꮣ 0:Ꮝ 0:Ꮧ "@U.TAM.Future@"  > Verb_Stems ; !
+< "2Dl+":0 0:Ꮝ 0:Ꮧ "@U.TAM.FutImp@"  > Verb_Stems ; !
+< "2Dl+":0 0:Ꮝ 0:Ꮧ "@U.TAM.RemPast@"  > Verb_Stems ; !
+< "2Dl+":0 0:Ꮝ 0:Ꮧ "@U.TAM.RepPast@"  > Verb_Stems ; !
+< "2Dl+":0 0:Ꮝ 0:Ꮧ "@U.TAM.ImmPast@"  > Verb_Stems ; !
+< "2Dl+":0 0:Ꮝ 0:Ꮧ "@U.TAM.PrsImp@"  > Verb_Stems ; !
+< "2Dl+":0 0:Ꮝ 0:Ꮧ "@U.TAM.Infinitive@"  > Verb_Stems ; !
+
+< "12Pl+":0 0:Ꭲ 0:Ꮧ "@U.TAM.Present@"  > Verb_Stems ; !
+< "12Pl+":0 0:Ꭲ 0:Ꮧ "@U.TAM.Habitual@"  > Verb_Stems ; !
+< "12Pl+":0 0:Ꮣ 0:Ꮧ "@U.TAM.Future@"  > Verb_Stems ; !
+< "12Pl+":0 0:Ꭲ 0:Ꮧ "@U.TAM.FutImp@"  > Verb_Stems ; !
+< "12Pl+":0 0:Ꭲ 0:Ꭹ "@U.TAM.RemPast@"  > Verb_Stems ; !
+< "12Pl+":0 0:Ꭲ 0:Ꭹ "@U.TAM.RepPast@"  > Verb_Stems ; !
+< "12Pl+":0 0:Ꭲ 0:Ꮧ "@U.TAM.ImmPast@"  > Verb_Stems ; !
+< "12Pl+":0 0:Ꭲ 0:Ꮧ "@U.TAM.PrsImp@"  > Verb_Stems ; !
+< "12Pl+":0 0:Ꭲ 0:Ꭹ "@U.TAM.Infinitive@"  > Verb_Stems ; !
+
+< "1Pl+":0 0:Ꭳ 0:Ꮵ "@U.TAM.Present@"  > Verb_Stems ; !
+< "1Pl+":0 0:Ꭳ 0:Ꮵ "@U.TAM.Habitual@"  > Verb_Stems ; !
+< "1Pl+":0 0:Ꮣ 0:Ᏺ 0:Ꮵ "@U.TAM.Future@"  > Verb_Stems ; !
+< "1Pl+":0 0:Ꭳ 0:Ꮵ "@U.TAM.FutImp@"  > Verb_Stems ; !
+< "1Pl+":0 0:Ꭳ 0:Ꭹ "@U.TAM.RemPast@"  > Verb_Stems ; !
+< "1Pl+":0 0:Ꭳ 0:Ꭹ "@U.TAM.RepPast@"  > Verb_Stems ; !
+< "1Pl+":0 0:Ꭳ 0:Ꮵ "@U.TAM.ImmPast@"  > Verb_Stems ; !
+< "1Pl+":0 0:Ꮼ 0:Ꮵ "@U.TAM.PrsImp@"  > Verb_Stems ; !
+< "1Pl+":0 0:Ꭳ 0:Ꭹ "@U.TAM.Infinitive@"  > Verb_Stems ; !
+
+< "2Pl+":0 0:Ꭲ 0:Ꮵ "@U.TAM.Present@"  > Verb_Stems ; !
+< "2Pl+":0 0:Ꭲ 0:Ꮵ "@U.TAM.Habitual@"  > Verb_Stems ; !
+< "2Pl+":0 0:Ꮣ 0:Ꮵ "@U.TAM.Future@"  > Verb_Stems ; !
+< "2Pl+":0 0:Ꭲ 0:Ꮵ "@U.TAM.FutImp@"  > Verb_Stems ; !
+< "2Pl+":0 0:Ꭲ 0:Ꮵ "@U.TAM.RemPast@"  > Verb_Stems ; !
+< "2Pl+":0 0:Ꭲ 0:Ꮵ "@U.TAM.RepPast@"  > Verb_Stems ; !
+< "2Pl+":0 0:Ꭲ 0:Ꮵ "@U.TAM.ImmPast@"  > Verb_Stems ; !
+< "2Pl+":0 0:Ꭲ 0:Ꮵ "@U.TAM.PrsImp@"  > Verb_Stems ; !
+< "2Pl+":0 0:Ꭲ 0:Ꮵ "@U.TAM.Infinitive@"  > Verb_Stems ; !
+
+< "3Pl+":0 0:Ꭰ 0:Ꮒ "@U.TAM.Present@"  > Verb_Stems ; !
+< "3Pl+":0 0:Ꭰ 0:Ꮒ "@U.TAM.Habitual@"  > Verb_Stems ; !
+< "3Pl+":0 0:Ꮫ 0:Ꮒ "@U.TAM.Future@"  > Verb_Stems ; !
+< "3Pl+":0 0:Ꭰ 0:Ꮒ "@U.TAM.FutImp@"  > Verb_Stems ; !
+< "3Pl+":0 0:Ꭴ 0:Ꮒ "@U.TAM.RemPast@"  > Verb_Stems ; !
+< "3Pl+":0 0:Ꭴ 0:Ꮒ "@U.TAM.RepPast@"  > Verb_Stems ; !
+< "3Pl+":0 0:Ꭰ 0:Ꮒ "@U.TAM.ImmPast@"  > Verb_Stems ; !
+< "3Pl+":0 0:Ꮹ 0:Ꮒ "@U.TAM.PrsImp@"  > Verb_Stems ; !
+< "3Pl+":0 0:Ꭴ 0:Ꮒ "@U.TAM.Infinitive@"  > Verb_Stems ; !
+
+
+! =====================  Suffixes =======================
+! =====================  Suffixes =======================
+! =====================  Suffixes =======================
+! =====================  Suffixes =======================
+! =====================  Suffixes =======================
+! =====================  Suffixes =======================
+
+
+!! Verb suffixes
+
+!! And now for the suffix part
+
+
+LEXICON TAM_Suffixes
+
+< "@U.TAM.Present@"    "+Prs":0     0:%^A  > #  ; !
+< "@U.TAM.Habitual@"   "+Hab":0     0:%^OI > #  ; !
+< "@U.TAM.Future@"     "+Fut":0     0:%^I  > #  ; !
+< "@U.TAM.FutImp@"     "+FutImp":0  0:%^VI > #  ; !
+< "@U.TAM.RemPast@"    "+RemPast":0 0:%^VI > #  ; !
+< "@U.TAM.RepPast@"    "+RepPast":0 0:%^EI > #  ; !
+< "@U.TAM.ImmPast@"    "+ImmPast":0 0:%^I  > #  ; !
+< "@U.TAM.PrsImp@"     "+PrsImp":0  0:%^I  > #  ; !
+< "@U.TAM.Infinitive@" "+Inf":0     0:Ꮧ    > #  ; !
+
+
