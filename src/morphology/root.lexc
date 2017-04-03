@@ -68,14 +68,21 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !! The verbs can have the following morphological features:
 
-+1sg   !!= * @CODE@ =
-+2dl   !!= * @CODE@ =
-+2pl   !!= * @CODE@ =
-+2sg   !!= * @CODE@ =
-+3pl   !!= * @CODE@ =
-+3sg   !!= * @CODE@ =
-+Edl   !!= * @CODE@ =
-+Epl   !!= * @CODE@ =
+
+12Dl+
+12Pl+
+1Sg+
+1Dl+
+1Pl+
+2Dl+
+2Pl+
+2Sg+
+3Pl+
+3Sg+
+
+
+
+
 +Fut   !!= * @CODE@ =
 +FutImp   !!= * @CODE@ =
 +Hab   !!= * @CODE@ =
@@ -83,8 +90,8 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +ImmPast   !!= * @CODE@ =
 +Inf   !!= * @CODE@ =
 +Ipl   !!= * @CODE@ =
-+Pres   !!= * @CODE@ =
-+PresImp   !!= * @CODE@ =
++Prs   !!= * @CODE@ =
++PrsImp   !!= * @CODE@ =
 +RemPast   !!= * @CODE@ =
 +RepPast   !!= * @CODE@ =
 
@@ -100,6 +107,26 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 @U.prefix.Epl@   !!= * @CODE@ =
 @U.prefix.Idl@   !!= * @CODE@ =
 @U.prefix.Ipl@   !!= * @CODE@ =
+
+
+!! The TAM flags
+@U.TAM.Present@     !!= * @CODE@ = 
+@U.TAM.Habitual@    !!= * @CODE@ = 
+@U.TAM.Future@      !!= * @CODE@ = 
+@U.TAM.FutImp@      !!= * @CODE@ = 
+@U.TAM.RemPast@     !!= * @CODE@ = 
+@U.TAM.RepPast@     !!= * @CODE@ = 
+@U.TAM.ImmPast@     !!= * @CODE@ = 
+@U.TAM.PrsImp@      !!= * @CODE@ = 
+@U.TAM.Infinitive@  !!= * @CODE@ = 
+
+
+%^A
+%^OI
+%^I
+%^VI
+%^EI
+
 
 %^WS	!!=* @CODE@ = whitespace dummy, for twolc
 
@@ -138,4 +165,4 @@ LEXICON Root
 !   Numerals    ;
 !   Particles ;
 !   Postpositions ;
- Punctuation ;
+! Punctuation ;
