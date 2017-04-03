@@ -6,19 +6,26 @@ Alphabet
   Ꮘ Ꮙ Ꮚ Ꮛ Ꮜ Ꮝ Ꮞ Ꮟ Ꮠ Ꮡ Ꮢ Ꮣ Ꮤ Ꮥ Ꮦ Ꮧ Ꮨ Ꮩ Ꮪ Ꮫ 
   Ꮬ Ꮭ Ꮮ Ꮯ Ꮰ Ꮱ Ꮲ Ꮳ Ꮴ Ꮵ Ꮶ Ꮷ Ꮸ Ꮹ Ꮺ Ꮻ Ꮼ Ꮽ Ꮾ Ꮿ 
   Ᏸ Ᏹ Ᏺ Ᏻ Ᏼ
+
+! Triggers
+%^A:0
+%^OI:0
+%^I:0
+%^VI:0
+%^EI:0
+%>:0
   ;
 
 Sets
 
  Dummy = %> ;
  
-Definitions 
-
-Affb = :* %>:0 :* ; 
 
 !! !!!Rules
 
 Rules
+
+
 
 "nonsense rule"
 Ꭰ:0 <=> Ꭰ Ꭱ Ꭲ Ꭳ Ꭴ Ꭵ Ꭶ Ꭷ Ꭸ Ꭹ _ ; 
