@@ -1,113 +1,141 @@
 !! Verbs
 !  -----
-!! Verbs in CHEROKEE language are actions.
+!! SIGH
 
-LEXICON Stems_Present_Int1
-ᎦᏃᎯᎭ:ᏃᎯ Suffix_Present_ha ;
-ᎦᏁᏦᎯᎭ:ᏁᏦᎯ Suffix_Present_ha ;
-ᎦᎶᎣᏍᎦ:ᎶᎣᏍ Suffix_Present_ga ;
-ᎦᎾᏩᏘᎭ:ᎾᏩᏘ Suffix_Present_ha ;
-ᎦᏁᏩᏘᎭ:ᏁᏩᏘ Suffix_Present_ha ;
+LEXICON Verb_Stems
 
-LEXICON Stems_Habitual_Int1
-ᎦᏃᎯᎭ:ᏃᎯ Suffix_Habitual_hoi ;
-ᎦᏁᏦᎯᎭ:ᏁᏦᎯ Suffix_Habitual_hoi ;
-ᎦᎶᎣᏍᎦ:ᎶᎣᏍ Suffix_Habitual_goi ;
-ᎦᎾᏩᏘᎭ:ᎾᏩᏘ Suffix_Habitual_sgoi ;
-ᎦᏁᏩᏘᎭ:ᏁᏩᏘ Suffix_Habitual_sgoi ;
+ᎦᎧᎲᎠ:ᎧᎲ TAM_Suffixes ;
+ᎦᎾᏩᏘᎭ:ᎾᏩᏛ TAM_Suffixes ;
+ᎦᏁᏩᏘᎭ:ᏁᏩᏛ TAM_Suffixes ;
 
-LEXICON Stems_Future_Int1
-ᎦᏃᎯᎭ:Ꮓ Suffix_Future_tli ;
-ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_Future_tli ;
-ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_Future_si ;
-ᎦᎾᏩᏘᎭ:ᎾᏩᏛ Suffix_Future_hi ;
-ᎦᏁᏩᏘᎭ:ᏁᏩᏛ Suffix_Future_hi ;
+ᎦᎶᎣᏍᎦ:ᎶᎣᎯᏍ TAM_Suffixes ;
+ᎦᏁᏦᎯᎭ:ᏁᏦᎯᏍ TAM_Suffixes ;
+ᎦᏂᏙᎭ:ᏂᏙᏍ TAM_Suffixes ;
+ᎦᏃᎯᎭ:ᏃᎯᏍ TAM_Suffixes ;
+ᎦᏰᎠ:ᏰᏍ TAM_Suffixes ;
 
-LEXICON Stems_FutImp_Int1
-ᎦᏃᎯᎭ:Ꮓ Suffix_FutImp_tlvi ;
-ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_FutImp_tlvi ;
-ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_FutImp_svi ;
-ᎦᎾᏩᏘᎭ:ᎾᏩᏛ Suffix_FutImp_hvi ;
-ᎦᏁᏩᏘᎭ:ᏁᏩᏛ Suffix_FutImp_hvi ;
+! ᎦᎧᎲᎠ:ᎧᎲ Suffix_FutImp_svi ;
+! ᎦᎾᏩᏘᎭ:ᎾᏩᏛ Suffix_FutImp_hvi ;
+! ᎦᏁᏩᏘᎭ:ᏁᏩᏛ Suffix_FutImp_hvi ;
 
-LEXICON Stems_RemPast_Int1
-ᎦᏃᎯᎭ:Ꮓ Suffix_RemPast_tlvi ;
-ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_RemPast_tlvi ;
-ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_RemPast_svi ;
-ᎦᎾᏩᏘᎭ:ᎾᏩᏛ Suffix_RemPast_hvi ;
-ᎦᏁᏩᏘᎭ:ᏁᏩᏛ Suffix_RemPast_hvi ;
+! ᎦᏃᎯᎭ:Ꮓ Suffix_FutImp_tlvi ;
+! ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_FutImp_tlvi ;
+! ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_FutImp_svi ;
 
-LEXICON Stems_RepPast_Int1
-ᎦᏃᎯᎭ:Ꮓ Suffix_RepPast_tlei ;
-ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_RepPast_tlei ;
-ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_RepPast_sei ;
-ᎦᎾᏩᏘᎭ:ᎾᏩᏛ Suffix_RepPast_hei ;
-ᎦᏁᏩᏘᎭ:ᏁᏩᏛ Suffix_RepPast_hei ;
+! ᎦᏰᎠ:Ꮿ Suffix_FutImp_vi ;
+! ᎦᏂᏙᎭ:ᏂᏙ Suffix_FutImp_lvi ;
+! 
 
-LEXICON Stems_ImmPast_Int1
-ᎦᏃᎯᎭ:Ꮓ Suffix_ImmPast_ga ;
-ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_ImmPast_ga ;
-ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_ImmPast_hi ;
-ᎦᎾᏩᏘᎭ:ᎾᏩ Suffix_ImmPast_ta ;
-ᎦᏁᏩᏘᎭ:ᏁᏩ Suffix_ImmPast_ta ;
 
-LEXICON Stems_PresImp_Int1
-ᎦᏃᎯᎭ:Ꮓ Suffix_PresImp_ga ;
-ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_PresImp_ga ;
-ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_PresImp_hi ;
-ᎦᎾᏩᏘᎭ:ᎾᏩ Suffix_PresImp_ta ;
-ᎦᏁᏩᏘᎭ:ᏁᏩ Suffix_PresImp_ta ;
-
-LEXICON Stems_Infinitive_Int1
-ᎦᏃᎯᎭ:ᏃᎯ Suffix_Infinitive_sdi ;
-ᎦᏁᏦᎯᎭ:ᏁᏦᎯ Suffix_Infinitive_sdi ;
-ᎦᎶᎣᏍᎦ:ᎶᎣᎯ Suffix_Infinitive_sdi ;
-ᎦᎾᏩᏘᎭ:ᎾᏩᏛ Suffix_Infinitive_di ;
-ᎦᏁᏩᏘᎭ:ᏁᏩᏛ Suffix_Infinitive_di ;
-
-LEXICON Stems_Present_Int2
-ᎦᏰᎠ:Ᏸ Suffix_Present_a ;
-ᎦᏂᏙᎭ:ᏂᏙ Suffix_Present_ha ;
-ᎦᎧᎲᎠ:ᎧᎲ Suffix_Present_a ;
-
-LEXICON Stems_Habitual_Int2
-ᎦᏰᎠ:Ᏸ Suffix_Habitual_sgoi ;
-ᎦᏂᏙᎭ:ᏂᏙ Suffix_Habitual_hoi ;
-ᎦᎧᎲᎠ:ᎧᎲ Suffix_Habitual_sgoi ;
-
-LEXICON Stems_Future_Int2
-ᎦᏰᎠ:Ꮿ Suffix_Future_i ;
-ᎦᏂᏙᎭ:ᏂᏙ Suffix_Future_li ;
-ᎦᎧᎲᎠ:ᎧᎲ Suffix_Future_si ;
-
-LEXICON Stems_FutImp_Int2
-ᎦᏰᎠ:Ꮿ Suffix_FutImp_vi ;
-ᎦᏂᏙᎭ:ᏂᏙ Suffix_FutImp_lvi ;
-ᎦᎧᎲᎠ:ᎧᎲ Suffix_FutImp_svi ;
-
-LEXICON Stems_RemPast_Int2
-ᎦᏰᎠ:Ꮿ Suffix_RemPast_vi ;
-ᎦᏂᏙᎭ:ᏂᏙ Suffix_RemPast_lvi ;
-ᎦᎧᎲᎠ:ᎧᎲ Suffix_RemPast_svi ;
-
-LEXICON Stems_RepPast_Int2
-ᎦᏰᎠ:Ꮿ Suffix_RepPast_ei ;
-ᎦᏂᏙᎭ:ᏂᏙ Suffix_RepPast_lei ;
-ᎦᎧᎲᎠ:ᎧᎲ Suffix_RepPast_sei ;
-
-LEXICON Stems_ImmPast_Int2
-ᎦᏰᎠ:Ꮿ Suffix_ImmPast_ga ;
-ᎦᏂᏙᎭ:Ꮒ Suffix_ImmPast_da ;
-ᎦᎧᎲᎠ:ᎧᎲ Suffix_ImmPast_na ;
-
-LEXICON Stems_PresImp_Int2
-ᎦᏰᎠ:Ꮿ Suffix_PresImp_ga ;
-ᎦᏂᏙᎭ:Ꮒ Suffix_PresImp_da ;
-ᎦᎧᎲᎠ:ᎧᎲ Suffix_PresImp_na ;
-
-LEXICON Stems_Infinitive_Int2
-ᎦᏰᎠ:Ᏸ Suffix_Infinitive_sdi ;
-ᎦᏂᏙᎭ:ᏂᏙ Suffix_Infinitive_sdi ;
-ᎦᎧᎲᎠ:ᎧᎲ Suffix_Infinitive_sdi ;
-
-! vim: set ft=xfst-lexc:
+! LEXICON Stems_Present_Int1
+! 
+! 
+! 
+! ᎦᏃᎯᎭ:ᏃᎯ Suffix_Present_ha ;
+! ᎦᏁᏦᎯᎭ:ᏁᏦᎯ Suffix_Present_ha ;
+! ᎦᎶᎣᏍᎦ:ᎶᎣᏍ Suffix_Present_ga ;
+! ᎦᎾᏩᏘᎭ:ᎾᏩᏘ Suffix_Present_ha ;
+! ᎦᏁᏩᏘᎭ:ᏁᏩᏘ Suffix_Present_ha ;
+! 
+! LEXICON Stems_Habitual_Int1
+! ᎦᏃᎯᎭ:ᏃᎯ Suffix_Habitual_hoi ;
+! ᎦᏁᏦᎯᎭ:ᏁᏦᎯ Suffix_Habitual_hoi ;
+! ᎦᎶᎣᏍᎦ:ᎶᎣᏍ Suffix_Habitual_goi ;
+! ᎦᎾᏩᏘᎭ:ᎾᏩᏘ Suffix_Habitual_sgoi ;
+! ᎦᏁᏩᏘᎭ:ᏁᏩᏘ Suffix_Habitual_sgoi ;
+! 
+! LEXICON Stems_Future_Int1
+! ᎦᏃᎯᎭ:Ꮓ Suffix_Future_tli ;
+! ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_Future_tli ;
+! ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_Future_si ;
+! ᎦᎾᏩᏘᎭ:ᎾᏩᏛ Suffix_Future_hi ;
+! ᎦᏁᏩᏘᎭ:ᏁᏩᏛ Suffix_Future_hi ;
+! 
+! LEXICON Stems_FutImp_Int1
+! ᎦᏃᎯᎭ:Ꮓ Suffix_FutImp_tlvi ;
+! ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_FutImp_tlvi ;
+! ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_FutImp_svi ;
+! ᎦᎾᏩᏘᎭ:ᎾᏩᏛ Suffix_FutImp_hvi ;
+! ᎦᏁᏩᏘᎭ:ᏁᏩᏛ Suffix_FutImp_hvi ;
+! 
+! LEXICON Stems_RemPast_Int1
+! ᎦᏃᎯᎭ:Ꮓ Suffix_RemPast_tlvi ;
+! ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_RemPast_tlvi ;
+! ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_RemPast_svi ;
+! ᎦᎾᏩᏘᎭ:ᎾᏩᏛ Suffix_RemPast_hvi ;
+! ᎦᏁᏩᏘᎭ:ᏁᏩᏛ Suffix_RemPast_hvi ;
+! 
+! LEXICON Stems_RepPast_Int1
+! ᎦᏃᎯᎭ:Ꮓ Suffix_RepPast_tlei ;
+! ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_RepPast_tlei ;
+! ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_RepPast_sei ;
+! ᎦᎾᏩᏘᎭ:ᎾᏩᏛ Suffix_RepPast_hei ;
+! ᎦᏁᏩᏘᎭ:ᏁᏩᏛ Suffix_RepPast_hei ;
+! 
+! LEXICON Stems_ImmPast_Int1
+! ᎦᏃᎯᎭ:Ꮓ Suffix_ImmPast_ga ;
+! ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_ImmPast_ga ;
+! ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_ImmPast_hi ;
+! ᎦᎾᏩᏘᎭ:ᎾᏩ Suffix_ImmPast_ta ;
+! ᎦᏁᏩᏘᎭ:ᏁᏩ Suffix_ImmPast_ta ;
+! 
+! LEXICON Stems_PresImp_Int1
+! ᎦᏃᎯᎭ:Ꮓ Suffix_PresImp_ga ;
+! ᎦᏁᏦᎯᎭ:ᏁᏦ Suffix_PresImp_ga ;
+! ᎦᎶᎣᏍᎦ:ᎶᎣ Suffix_PresImp_hi ;
+! ᎦᎾᏩᏘᎭ:ᎾᏩ Suffix_PresImp_ta ;
+! ᎦᏁᏩᏘᎭ:ᏁᏩ Suffix_PresImp_ta ;
+! 
+! LEXICON Stems_Infinitive_Int1
+! ᎦᏃᎯᎭ:ᏃᎯ Suffix_Infinitive_sdi ;
+! ᎦᏁᏦᎯᎭ:ᏁᏦᎯ Suffix_Infinitive_sdi ;
+! ᎦᎶᎣᏍᎦ:ᎶᎣᎯ Suffix_Infinitive_sdi ;
+! ᎦᎾᏩᏘᎭ:ᎾᏩᏛ Suffix_Infinitive_di ;
+! ᎦᏁᏩᏘᎭ:ᏁᏩᏛ Suffix_Infinitive_di ;
+! 
+! LEXICON Stems_Present_Int2
+! ᎦᏰᎠ:Ᏸ Suffix_Present_a ;
+! ᎦᏂᏙᎭ:ᏂᏙ Suffix_Present_ha ;
+! ᎦᎧᎲᎠ:ᎧᎲ Suffix_Present_a ;
+! 
+! LEXICON Stems_Habitual_Int2
+! ᎦᏰᎠ:Ᏸ Suffix_Habitual_sgoi ;
+! ᎦᏂᏙᎭ:ᏂᏙ Suffix_Habitual_hoi ;
+! ᎦᎧᎲᎠ:ᎧᎲ Suffix_Habitual_sgoi ;
+! 
+! LEXICON Stems_Future_Int2
+! ᎦᏰᎠ:Ꮿ Suffix_Future_i ;
+! ᎦᏂᏙᎭ:ᏂᏙ Suffix_Future_li ;
+! ᎦᎧᎲᎠ:ᎧᎲ Suffix_Future_si ;
+! 
+! LEXICON Stems_FutImp_Int2
+! ᎦᏰᎠ:Ꮿ Suffix_FutImp_vi ;
+! ᎦᏂᏙᎭ:ᏂᏙ Suffix_FutImp_lvi ;
+! ᎦᎧᎲᎠ:ᎧᎲ Suffix_FutImp_svi ;
+! 
+! LEXICON Stems_RemPast_Int2
+! ᎦᏰᎠ:Ꮿ Suffix_RemPast_vi ;
+! ᎦᏂᏙᎭ:ᏂᏙ Suffix_RemPast_lvi ;
+! ᎦᎧᎲᎠ:ᎧᎲ Suffix_RemPast_svi ;
+! 
+! LEXICON Stems_RepPast_Int2
+! ᎦᏰᎠ:Ꮿ Suffix_RepPast_ei ;
+! ᎦᏂᏙᎭ:ᏂᏙ Suffix_RepPast_lei ;
+! ᎦᎧᎲᎠ:ᎧᎲ Suffix_RepPast_sei ;
+! 
+! LEXICON Stems_ImmPast_Int2
+! ᎦᏰᎠ:Ꮿ Suffix_ImmPast_ga ;
+! ᎦᏂᏙᎭ:Ꮒ Suffix_ImmPast_da ;
+! ᎦᎧᎲᎠ:ᎧᎲ Suffix_ImmPast_na ;
+! 
+! LEXICON Stems_PresImp_Int2
+! ᎦᏰᎠ:Ꮿ Suffix_PresImp_ga ;
+! ᎦᏂᏙᎭ:Ꮒ Suffix_PresImp_da ;
+! ᎦᎧᎲᎠ:ᎧᎲ Suffix_PresImp_na ;
+! 
+! LEXICON Stems_Infinitive_Int2
+! ᎦᏰᎠ:Ᏸ Suffix_Infinitive_sdi ;
+! ᎦᏂᏙᎭ:ᏂᏙ Suffix_Infinitive_sdi ;
+! ᎦᎧᎲᎠ:ᎧᎲ Suffix_Infinitive_sdi ;
+! 
+! ! vim: set ft=xfst-lexc:
