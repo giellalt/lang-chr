@@ -165,4 +165,5 @@ LEXICON Root
 !   Numerals    ;
 !   Particles ;
 !   Postpositions ;
-! Punctuation ;
+    Punctuation ;
+    Symbols     ;
