@@ -106,6 +106,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 ! Abbreviated words are classified with:
 
 +ABBR !!= * @CODE@ = Abbreviations
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 +ACR  !!= * @CODE@ = Acronyms
 
 
