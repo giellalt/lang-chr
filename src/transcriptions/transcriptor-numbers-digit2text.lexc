@@ -107,7 +107,7 @@ LEXICON ONESM
 6:nikotwâsik         MILJON ;
 7:tepakohp       MILJON ;
 8:ayinânew       MILJON ;
-9:kekâmitâtaht         MILJON ;
+9:kekâmitâtaht         MILJON ; 
 
 LEXICON MILJON
 :% miljona%  OVERTHOUSANDS ;
@@ -125,7 +125,7 @@ HUNDREDST ;		! x00.000.000
 %0%0: ONEST ;		!   2.000.000
 %0%01:peyak% kihci% mitâtahtomtanaw THOUSAND ;
 %0%01:peyak% kihci% mitâtahtomitanaw THOUSAND ;
-%0%0%0: UNDERTHOUSAND ;
+%0%0%0: UNDERTHOUSAND ;	
 %0%0%0%0: TENS ;
 %0%0%0%0: TEENS ;
 %0%0%0%0%0: ONES ;
@@ -254,7 +254,7 @@ LEXICON TENS
 8:ayinânewomi TEN ;
 9:kekâmitâtahtomi TEN ;
 
-LEXICON TEN
+LEXICON TEN 
 %0%.:låhkede ENDLEX ; ! låhkede to be removed or replaced
 :tanaw%  ONESTONEXT ;
 %0:tanaw%  ENDLEX ;
@@ -344,12 +344,12 @@ LEXICON CARDINAL
 !! % komma% :,      Root ;
 !! % tjuohkkis% :%. Root ;
 !! % kolon% :%:     Root ;
-!! % sárggis% :%-   Root ;
-! % la% :%=         Root ;
-! % gráda% :%°      Root ;
-! % paragráfa% :§   Root ;
-!! % násti% :%*     Root ;
-! % ja% :&          Root ;
+!! % sárggis% :%-   Root ; 
+! % la% :%=         Root ; 
+! % gráda% :%°      Root ; 
+! % paragráfa% :§   Root ; 
+!! % násti% :%*     Root ; 
+! % ja% :&          Root ; 
 
 LEXICON ENDLEX
  # ;

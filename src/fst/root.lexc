@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-!!               !!! Cherokee morphological analyser
+!!               !!! Cherokee morphological analyser                      
 ! ========================================================================== !
 
 !! This file shows the Cherokee multichar symbols and initial lexica.
@@ -136,7 +136,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 +ACR  !!= * @CODE@ = Acronyms
 
-
+ 
 !! Special symbols are classified with:
 +CLB   !!= * @CODE@ = Clause boundary symbols
 +PUNCT !!= * @CODE@ = Other punctuation marks
@@ -144,14 +144,14 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 +RIGHT !!= * @CODE@ = Right part of paired symbols
 
 !! The verbs are syntactically split according to transitivity:
-+TV !!= * @CODE@
-+IV !!= * @CODE@
++TV !!= * @CODE@ 
++IV !!= * @CODE@ 
 
 !! Special multiword units are analysed with:
- +Multi !!= * @CODE@
+ +Multi !!= * @CODE@ 
 
 !! Non-dictionary words can be recognised with:
- +Guess !!= * @CODE@
+ +Guess !!= * @CODE@ 
 
 %>
 
@@ -160,7 +160,7 @@ LEXICON Root
 !! The word forms in Cherokee start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 !   Nouns   ;
-  VerbPrefixes   ;    !!= * @CODE@
+  VerbPrefixes   ;    !!= * @CODE@ 
 !   Adjectives  ;
 !   Pronouns    ;
 !   Numerals    ;

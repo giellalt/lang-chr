@@ -21,18 +21,18 @@
 
 Multichar_Symbols
 
-@U.TIME.1@
-@U.TIME.2@
-@U.TIME.3@
-@U.TIME.4@
-@U.TIME.5@
-@U.TIME.6@
-@U.TIME.7@
-@U.TIME.8@
-@U.TIME.9@
-@U.TIME.10@
-@U.TIME.11@
-@U.TIME.12@
+@U.TIME.1@ 
+@U.TIME.2@ 
+@U.TIME.3@ 
+@U.TIME.4@ 
+@U.TIME.5@ 
+@U.TIME.6@ 
+@U.TIME.7@ 
+@U.TIME.8@ 
+@U.TIME.9@ 
+@U.TIME.10@ 
+@U.TIME.11@ 
+@U.TIME.12@ 
 +Use/NA
 +Use/NG
 
@@ -115,7 +115,7 @@ LEXICON BEF
 35:nîstanaw% nîyânanosâp%  TO ;
 36:nîstanaw% newosâp%  TO ;
 37:nîstanaw% nistosâp%  TO ;
-38:nîstanaw% nîsosâp%  TO ;
+38:nîstanaw% nîsosâp%  TO ; 
 39:nîstanaw% peyakosâp%  TO ;
 4%0:nîstanaw%  TO ;
 41:kîkâmitâtahtosâp%  TO ;
@@ -132,10 +132,10 @@ LEXICON BEF
 52:ayinânew%  TO ;
 53:tepakohp%  TO ;
 54:nikotwâsik%  TO ;
-55:niyânan%  TO ;
-56:newo%  TO ;
+55:niyânan%  TO ;  
+56:newo%  TO ;  
 57:nisto%  TO ;
-58:nîso%  TO ;
+58:nîso%  TO ; 
 59:peyak%  TO ;
 
 LEXICON AFT
@@ -154,7 +154,7 @@ LEXICON AFT
 12:nîsosâp%  OVER ;
 13:nistosâp%  OVER ;
 14:newosâposâp%  OVER ;
-15:niyânanosâp%  OVER ;
+15:niyânanosâp%  OVER ; 
 16:nikotwâsiksâp%  OVER ;
 17:tepakohposâp%  OVER ;
 18:ayinânewosâp%  OVER ;
@@ -164,10 +164,10 @@ LEXICON AFT
 22:nîstanaw% nîsosâp%  OVER ;
 23:nîstanaw% nistosâp%  OVER ;
 24:nîstanaw% newosâp%  OVER ;
-25:nîstanaw% nîyânanosâp%  OVER ;
-26:nîstanaw% nikotwâosâp%  OVER ;
+25:nîstanaw% nîyânanosâp%  OVER ;  
+26:nîstanaw% nikotwâosâp%  OVER ;  
 27:nîstanaw% tepakohposâp%  OVER ;
-28:nîstanaw% ayinânewosâp%  OVER ;
+28:nîstanaw% ayinânewosâp%  OVER ; 
 29:nîstanaw% kekâmitâtahtosâp%  OVER ;
 
 LEXICON TO
@@ -177,37 +177,37 @@ LEXICON OVER
  :cipahikanis% mîyâskam%  HOUR ;
 
 LEXICON HALFHOUR
-@U.TIME.1@:nîsosâp@U.TIME.1@          HALF ;
-@U.TIME.2@:peyak@U.TIME.2@         HALF ;
-@U.TIME.3@:nîso@U.TIME.3@          HALF ;
-@U.TIME.4@:nisto@U.TIME.4@       HALF ;
-@U.TIME.5@:newo@U.TIME.5@         HALF ;
-@U.TIME.6@:nîyânan@U.TIME.6@         HALF ;
-@U.TIME.7@:nikotwâsik@U.TIME.7@       HALF ;
-@U.TIME.8@:tepakohp@U.TIME.8@       HALF ;
-@U.TIME.9@:ayinânew@U.TIME.9@         HALF ;
-@U.TIME.10@:kekâmitâtaht@U.TIME.10@       HALF ;
-@U.TIME.11@:mitâtaht@U.TIME.11@   HALF ;
-@U.TIME.12@:peyakosâp@U.TIME.12@     HALF ;
+@U.TIME.1@:nîsosâp@U.TIME.1@          HALF ;           
+@U.TIME.2@:peyak@U.TIME.2@         HALF ;         
+@U.TIME.3@:nîso@U.TIME.3@          HALF ;          
+@U.TIME.4@:nisto@U.TIME.4@       HALF ;       
+@U.TIME.5@:newo@U.TIME.5@         HALF ;         
+@U.TIME.6@:nîyânan@U.TIME.6@         HALF ;         
+@U.TIME.7@:nikotwâsik@U.TIME.7@       HALF ;       
+@U.TIME.8@:tepakohp@U.TIME.8@       HALF ;       
+@U.TIME.9@:ayinânew@U.TIME.9@         HALF ;         
+@U.TIME.10@:kekâmitâtaht@U.TIME.10@       HALF ;       
+@U.TIME.11@:mitâtaht@U.TIME.11@   HALF ;   
+@U.TIME.12@:peyakosâp@U.TIME.12@     HALF ; 
 
 LEXICON HALF
  :% mînâpihtaw # ; !Not obligatory to add tipahikan
- :% mînâpihtaw TIPAHIKAN ;
+ :% mînâpihtaw TIPAHIKAN ; 
 
 
 LEXICON HOUR
-@U.TIME.1@:peyak@U.TIME.1@          TIPAHIKAN ;
-@U.TIME.2@:nîso@U.TIME.2@         TIPAHIKAN ;
-@U.TIME.3@:nisto@U.TIME.3@          TIPAHIKAN ;
-@U.TIME.4@:newo@U.TIME.4@       TIPAHIKAN ;
-@U.TIME.5@:nîyânan@U.TIME.5@         TIPAHIKAN ;
-@U.TIME.6@:nikotwâsik@U.TIME.6@         TIPAHIKAN ;
-@U.TIME.7@:tepakohp@U.TIME.7@       TIPAHIKAN ;
-@U.TIME.8@:ayinânew@U.TIME.8@       TIPAHIKAN ;
-@U.TIME.9@:kekâmitâtaht@U.TIME.9@         TIPAHIKAN ;
-@U.TIME.10@:mitâtaht@U.TIME.10@       TIPAHIKAN ;
-@U.TIME.11@:peyakosâp@U.TIME.11@   TIPAHIKAN ;
-@U.TIME.12@:nîsosâp@U.TIME.12@     TIPAHIKAN ;
+@U.TIME.1@:peyak@U.TIME.1@          TIPAHIKAN ;           
+@U.TIME.2@:nîso@U.TIME.2@         TIPAHIKAN ;         
+@U.TIME.3@:nisto@U.TIME.3@          TIPAHIKAN ;          
+@U.TIME.4@:newo@U.TIME.4@       TIPAHIKAN ;       
+@U.TIME.5@:nîyânan@U.TIME.5@         TIPAHIKAN ;         
+@U.TIME.6@:nikotwâsik@U.TIME.6@         TIPAHIKAN ;         
+@U.TIME.7@:tepakohp@U.TIME.7@       TIPAHIKAN ;       
+@U.TIME.8@:ayinânew@U.TIME.8@       TIPAHIKAN ;       
+@U.TIME.9@:kekâmitâtaht@U.TIME.9@         TIPAHIKAN ;         
+@U.TIME.10@:mitâtaht@U.TIME.10@       TIPAHIKAN ;       
+@U.TIME.11@:peyakosâp@U.TIME.11@   TIPAHIKAN ;   
+@U.TIME.12@:nîsosâp@U.TIME.12@     TIPAHIKAN ; 
 
 LEXICON TIPAHIKAN
  :% tipahikan # ;

@@ -26,14 +26,14 @@ Multichar_Symbols
 +Use/NG ! For substandard month names used in Oahpa
 +Use/NA ! For substandard month names used in Oahpa
 ! They will be accepted but not generated.
-
+ 
 LEXICON Root
  DAYS ;
 ! ZERODAY ; !If we want digits, this path adds 0
 
 !LEXICON ZERODAY !If we want digits, this lexicon adds 0
-! :%0 SINGLEDAYS ;
-
+! :%0 SINGLEDAYS ; 
+ 
 LEXICON DAYS !This lexicon makes it possible to add 0
 1:1%  EHAKIMIHT-1 ;
 1st:1%  EHAKIMIHT-ST ;
@@ -89,19 +89,19 @@ LEXICON EHAKIMIHT-ST
 
 
 LEXICON 29MONTHS
-February:mikisowipîsimohk ENDLEX ;
+February:mikisowipîsimohk ENDLEX ; 
 April:ayikipîsimohk ENDLEX ;
-June:opâskâwewowipîsimohk ENDLEX ;
-September:onôcihitowipîsimohk ENDLEX ;
-January:kisepîsimohk ENDLEX ;
-March:niskipîsimohk ENDLEX ;
+June:opâskâwewowipîsimohk ENDLEX ; 
+September:onôcihitowipîsimohk ENDLEX ; 
+January:kisepîsimohk ENDLEX ; 
+March:niskipîsimohk ENDLEX ; 
 May:opiniyâwewowipîsimohk ENDLEX ;
 July:opaskowipîsimohk ENDLEX ;
-August:ohpahowipîsimohk ENDLEX ;
+August:ohpahowipîsimohk ENDLEX ; 
 October:kaskatinowipîsimohk ENDLEX ;
-December:manitow% kîsikan% pîsimohk ENDLEX ;
-December:pawahcakinasîs ENDLEX ;
-November:iyikopîwipîsimohk ENDLEX ;
+December:manitow% kîsikan% pîsimohk ENDLEX ; 
+December:pawahcakinasîs ENDLEX ; 
+November:iyikopîwipîsimohk ENDLEX ; 
 
 LEXICON EHAKIMIHT30
 %.%  :ehakimiht%  30MONTHS ; !5. September
@@ -114,18 +114,18 @@ LEXICON EHAKIMIHT30-ST
 
 LEXICON 30MONTHS
 April:ayikipîsimohk ENDLEX ;
-June:opâskâwewowipîsimohk ENDLEX ;
+June:opâskâwewowipîsimohk ENDLEX ; 
 September:onôcihitowipîsimohk ENDLEX ;
-November:iyikopîwipîsimohk ENDLEX ;
-January:kisepîsimohk ENDLEX ;
-March:niskipîsimohk ENDLEX ;
+November:iyikopîwipîsimohk ENDLEX ; 
+January:kisepîsimohk ENDLEX ; 
+March:niskipîsimohk ENDLEX ; 
 May:opiniyâwewowipîsimohk ENDLEX ;
 July:opaskowipîsimohk ENDLEX ;
-August:ohpahowipîsimohk ENDLEX ;
-October:kaskatinowipîsimohk ENDLEX ;
+August:ohpahowipîsimohk ENDLEX ; 
+October:kaskatinowipîsimohk ENDLEX ; 
 December:manitow% kîsikan% pîsimohk ENDLEX ;
 December:pawahcakinasîs ENDLEX ;
-October:kaskatinowipîsimohk ENDLEX ;
+October:kaskatinowipîsimohk ENDLEX ; 
 December:manitow% kîsikan% pîsimohk ENDLEX ;
 December:pawahcakinasîs ENDLEX ;
 
@@ -149,7 +149,7 @@ October:kaskatinowipîsimohk ENDLEX ;
 December:manitow% kîsikan% pîsimohk ENDLEX ;
 December:pawahcakinasîs ENDLEX ;
 
-
+  
 LEXICON ENDLEX
  # ;
 ! # ; ! sloppy punctuation
