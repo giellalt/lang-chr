@@ -1,0 +1,35 @@
+[package]
+name = "chr"
+human_name = "Cherokee"
+version = "0.1.0"
+
+# Table of speller tag -> filename to include in the bundle
+# filenames depends on specific project
+[spellers.chr]
+filename = "chr-mobile.zhfst"
+
+# Table of bundles to generated
+# key is the type of bundle
+# Windows speller bundle require a uuid for the installer
+[bundles.speller_win]
+package = "speller-chr"
+platform = "windows"
+uuid = "396471B4-2871-4135-80AE-CECFD1CC145D"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_macos]
+pkg_id = "no.divvun.MacDivvun.chr"
+package = "speller-chr"
+platform = "macos"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_win_mso]
+package = "speller-chr-mso"
+platform = "windows"
+uuid = "CA1C6997-72FE-4860-A636-3FFB0548DF08"
+repo = "https://pahkat.uit.no/main/"
+
+[bundles.speller_mobile]
+package = "speller-chr"
+platform = "mobile"
+repo = "https://pahkat.uit.no/main/"
