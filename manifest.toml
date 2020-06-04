@@ -1,0 +1,9 @@
+name = "Cherokee"
+version = "0.1.0"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.chr"
+
+[windows]
+system_product_code = "396471B4-2871-4135-80AE-CECFD1CC145D"
+msoffice_product_code = "CA1C6997-72FE-4860-A636-3FFB0548DF08"
