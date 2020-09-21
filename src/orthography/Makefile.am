@@ -18,5 +18,12 @@ GT_ORTHOGRAPHIC_XFSCRIPT_SRCS=\
 		syllabics2latin.xfscript \
 		spellrelax-with-tags.xfscript
 
+# Add extra targets here:
+GIELLA_ORTH_EXTRA_TARGETS=
+
+###### BEGIN: local build rules below here: ######
+
+######  END: local build rules above here.  ######
+
 # General build rules included from here:
 include $(top_srcdir)/../giella-core/am-shared/src-orthography-dir-include.am
