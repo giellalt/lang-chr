@@ -1,15 +1,9 @@
 [What is this?|WhatIsThis.html]
 
 
-!!! Dynamic documentation
 
-* [Links to generated source file documentation|Links.html]
-* Source files: [stems|https://gtsvn.uit.no/langtech/trunk/startup-langs/chr/src/fst/stems/]   
-  / [affixes|https://gtsvn.uit.no/langtech/trunk/startup-langs/chr/src/fst/affixes/] 
-  / [syntax|https://gtsvn.uit.no/langtech/trunk/startup-langs/chr/src/syntax/] 
-  / [xfst|https://gtsvn.uit.no/langtech/trunk/startup-langs/chr/src/phonology/chr-phon.xfscript]   
-  / [yaml|https://gtsvn.uit.no/langtech/trunk/startup-langs/chr/test/src/fst/]
 
+ 
 !!! Grammatical issues
 
 * [The tags that are in use|https://gtsvn.uit.no/langtech/trunk/startup-langs/chr/src/fst/root.lexc]   
