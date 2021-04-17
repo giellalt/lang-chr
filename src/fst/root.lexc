@@ -13,14 +13,14 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-!!               !!! Cherokee morphological analyser                      
+!! Cherokee morphological analyser                      
 ! ========================================================================== !
 
 !! This file shows the Cherokee multichar symbols and initial lexica.
 
-Multichar_Symbols  !!≈ !!!Definitions for @CODE@
+Multichar_Symbols  !!≈ # Definitions for @CODE@
 
-!! !!Analysis symbols
+!! ## Analysis symbols
 ! ----------------
 !! The morphological analyses of wordforms of Cherokee are presented
 !! in this system in terms of following symbols.
