@@ -1,9 +1,71 @@
+Noun inflection
+The Cherokee language nouns inflect in cases.
+
+
+
+Proper noun inflection
+The Cherokee language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Adjective inflection
+The Cherokee language adjectives compare.
+
+
+
+Verb inflection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verb suffixes
+
+And now for the suffix part
+
+
+
+
+
+# Alphabet
+
+
+
+
+
+
+# Rules
+
+
+
+
 
 Cherokee morphological analyser                      
 
 This file shows the Cherokee multichar symbols and initial lexica.
 
- # Definitions for Multichar_Symbols
+# Definitions for Multichar_Symbols
 
 ## Analysis symbols
 The morphological analyses of wordforms of Cherokee are presented
@@ -125,6 +187,91 @@ Non-dictionary words can be recognised with:
 The word forms in Cherokee start from the lexeme roots of basic
 word classes, or optionally from prefixes:
  *   VerbPrefixes   ;     
+Nouns
+Nouns in the Cherokee language are things.
+
+
+Prefixes
+Prefixes in the Cherokee language are bound to beginning of other words.
+
+
+
+Pronouns
+Pronouns in the Cherokee language are references to things.
+
+
+Adjectives
+Adjectives in the Cherokee language describe things.
+
+
+Verbs
+SIGH
+
+
+
+
+
+
+
+
+Numerals
+Numerals in the Cherokee language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
+
 
 
 
