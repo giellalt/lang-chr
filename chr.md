@@ -1,11 +1,43 @@
-Noun inflection
-The Cherokee language nouns inflect in cases.
+Nouns
+Nouns in the Cherokee language are things.
+
+
+Numerals
+Numerals in the Cherokee language are numbers.
+
+
+Verbs
+SIGH
 
 
 
-Proper noun inflection
-The Cherokee language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
+
+
+
+
+
+Prefixes
+Prefixes in the Cherokee language are bound to beginning of other words.
+
+
+
+Adjectives
+Adjectives in the Cherokee language describe things.
+
+
+Pronouns
+Pronouns in the Cherokee language are references to things.
+
+
+# Alphabet
+
+
+
+
+
+
+# Rules
+
 
 
 
@@ -16,8 +48,14 @@ nouns, but with a colon (':') as separator.
 
 
 
-Adjective inflection
-The Cherokee language adjectives compare.
+Noun inflection
+The Cherokee language nouns inflect in cases.
+
+
+
+Proper noun inflection
+The Cherokee language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
 
 
 
@@ -48,15 +86,8 @@ And now for the suffix part
 
 
 
-# Alphabet
-
-
-
-
-
-
-# Rules
-
+Adjective inflection
+The Cherokee language adjectives compare.
 
 
 
@@ -187,35 +218,20 @@ Non-dictionary words can be recognised with:
 The word forms in Cherokee start from the lexeme roots of basic
 word classes, or optionally from prefixes:
  *   VerbPrefixes   ;     
-Nouns
-Nouns in the Cherokee language are things.
-
-
-Prefixes
-Prefixes in the Cherokee language are bound to beginning of other words.
 
 
 
-Pronouns
-Pronouns in the Cherokee language are references to things.
+We describe here how abbreviations are in Cherokee are read out, e.g.
+for text-to-speech systems.
 
+For example:
 
-Adjectives
-Adjectives in the Cherokee language describe things.
-
-
-Verbs
-SIGH
-
-
-
-
-
-
-
-
-Numerals
-Numerals in the Cherokee language are numbers.
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -271,20 +287,4 @@ Numerals in the Cherokee language are numbers.
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in Cherokee are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
