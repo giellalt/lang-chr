@@ -1,15 +1,15 @@
 # Cherokee documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-chr)](https://raw.githubusercontent.com/giellalt/lang-chr/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-chr)](https://raw.githubusercontent.com/giellalt/lang-chr/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-chr)](https://github.com/giellalt/lang-chr/issues)
 [![Build status](https://github.com/giellalt/lang-chr/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-chr/actions)
 
-This page documents the work on the **Cherokee language model**. 
+This page documents the work on the [Cherokee language model](https://github.com/giellalt/lang-chr). 
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
 
 # In-source documentation
 
