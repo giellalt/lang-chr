@@ -660,67 +660,6 @@ These were the set types.
 
 
 
-Nouns
-Nouns in the Cherokee language are things.
-
-
-Numerals
-Numerals in the Cherokee language are numbers.
-
-
-Verbs
-SIGH
-
-
-
-
-
-
-
-
-Prefixes
-Prefixes in the Cherokee language are bound to beginning of other words.
-
-
-
-Adjectives
-Adjectives in the Cherokee language describe things.
-
-
-Pronouns
-Pronouns in the Cherokee language are references to things.
-
-
-# Alphabet
-
-
-
-
-
-
-# Rules
-
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-Noun inflection
-The Cherokee language nouns inflect in cases.
-
-
-
-Proper noun inflection
-The Cherokee language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
 Verb inflection
 
 
@@ -748,9 +687,70 @@ And now for the suffix part
 
 
 
+Proper noun inflection
+The Cherokee language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
 Adjective inflection
 The Cherokee language adjectives compare.
 
+
+
+Noun inflection
+The Cherokee language nouns inflect in cases.
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+# Alphabet
+
+
+
+
+
+
+# Rules
+
+
+
+
+Verbs
+SIGH
+
+
+
+
+
+
+
+
+Pronouns
+Pronouns in the Cherokee language are references to things.
+
+
+Numerals
+Numerals in the Cherokee language are numbers.
+
+
+Adjectives
+Adjectives in the Cherokee language describe things.
+
+
+Prefixes
+Prefixes in the Cherokee language are bound to beginning of other words.
+
+
+
+Nouns
+Nouns in the Cherokee language are things.
 
 
 
@@ -883,22 +883,6 @@ word classes, or optionally from prefixes:
 
 
 
-We describe here how abbreviations are in Cherokee are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -949,6 +933,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Cherokee are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
