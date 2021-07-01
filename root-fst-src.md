@@ -125,3 +125,5 @@ Non-dictionary words can be recognised with:
 The word forms in Cherokee start from the lexeme roots of basic
 word classes, or optionally from prefixes:
  *   VerbPrefixes   ;     
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/root.lexc)</small>
