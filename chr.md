@@ -1,5 +1,61 @@
 
 
+# Cherokee disambiguator 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-chr/blob/main/../src/cg3/disambiguator.cg3)</small>
+
 
 
 
@@ -606,35 +662,33 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-chr/blob/main/../src/cg3/functions.cg3)</small>
-
-# Cherokee disambiguator 
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-chr/blob/main/../src/cg3/functions.cg3)</small># Alphabet
 
 
 
 
 
 
+# Rules
 
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/phonology.twolc)</small>Noun inflection
+The Cherokee language nouns inflect in cases.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/affixes/nouns.lexc)</small>Proper noun inflection
+The Cherokee language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
 
 
 
-
-
-
-
-
-
-
-
-
-
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/affixes/propernouns.lexc)</small>Verb inflection
 
 
 
@@ -653,53 +707,30 @@ These were the set types.
 
 
 
+Verb suffixes
 
-
-
+And now for the suffix part
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-chr/blob/main/../src/cg3/disambiguator.cg3)</small>Verbs
-SIGH
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/affixes/verbs.lexc)</small>Adjective inflection
+The Cherokee language adjectives compare.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/affixes/adjectives.lexc)</small>
+# Symbol affixes
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
-Numerals in the Cherokee language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/numerals.lexc)</small>Pronouns
-Pronouns in the Cherokee language are references to things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/pronouns.lexc)</small>Prefixes
-Prefixes in the Cherokee language are bound to beginning of other words.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/prefixes.lexc)</small>Adjectives
-Adjectives in the Cherokee language describe things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/adjectives.lexc)</small>Nouns
-Nouns in the Cherokee language are things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/affixes/symbols.lexc)</small>
 Cherokee morphological analyser                      
 
 This file shows the Cherokee multichar symbols and initial lexica.
@@ -827,75 +858,44 @@ The word forms in Cherokee start from the lexeme roots of basic
 word classes, or optionally from prefixes:
  *   VerbPrefixes   ;     
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/root.lexc)</small># Alphabet
-
-
-
-
-
-
-# Rules
-
-
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/root.lexc)</small>Nouns
+Nouns in the Cherokee language are things.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/phonology.twolc)</small>Verb inflection
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/nouns.lexc)</small>Verbs
+SIGH
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Verb suffixes
-
-And now for the suffix part
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/affixes/verbs.lexc)</small>
-# Symbol affixes
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/verbs.lexc)</small>Adjectives
+Adjectives in the Cherokee language describe things.
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/adjectives.lexc)</small>Numerals
+Numerals in the Cherokee language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/numerals.lexc)</small>Prefixes
+Prefixes in the Cherokee language are bound to beginning of other words.
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/affixes/symbols.lexc)</small>Proper noun inflection
-The Cherokee language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/affixes/propernouns.lexc)</small>Adjective inflection
-The Cherokee language adjectives compare.
-
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/prefixes.lexc)</small>Pronouns
+Pronouns in the Cherokee language are references to things.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/affixes/adjectives.lexc)</small>Noun inflection
-The Cherokee language nouns inflect in cases.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/pronouns.lexc)</small>
 
 
 
