@@ -3,7 +3,7 @@ Cherokee morphological analyser
 
 This file shows the Cherokee multichar symbols and initial lexica.
 
- # Definitions for Multichar_Symbols
+# Definitions for Multichar_Symbols@CODE@
 
 ## Analysis symbols
 The morphological analyses of wordforms of Cherokee are presented
@@ -100,7 +100,7 @@ The TAM flags
 
 
  * +ABBR  = Abbreviations
- * +Symbol = independent symbols in the text stream, like £, €, ©
+* +Symbol© = independent symbols in the text stream, like £, €, ©
  * +ACR   = Acronyms
 
 

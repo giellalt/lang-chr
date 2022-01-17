@@ -662,62 +662,12 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-chr/blob/main/../src/cg3/disambiguator.cg3)</small># Alphabet
-
-
-
-
-
-
-# Rules
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/phonology.twolc)</small>Nouns
-Nouns in the Cherokee language are things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/nouns.lexc)</small>Numerals
-Numerals in the Cherokee language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/numerals.lexc)</small>Adjectives
-Adjectives in the Cherokee language describe things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/adjectives.lexc)</small>Prefixes
-Prefixes in the Cherokee language are bound to beginning of other words.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/prefixes.lexc)</small>Pronouns
-Pronouns in the Cherokee language are references to things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/pronouns.lexc)</small>Verbs
-SIGH
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-chr/blob/main/../src/cg3/disambiguator.cg3)</small>
 Cherokee morphological analyser                      
 
 This file shows the Cherokee multichar symbols and initial lexica.
 
- # Definitions for Multichar_Symbols
+# Definitions for Multichar_Symbols@CODE@
 
 ## Analysis symbols
 The morphological analyses of wordforms of Cherokee are presented
@@ -814,7 +764,7 @@ The TAM flags
 
 
  * +ABBR  = Abbreviations
- * +Symbol = independent symbols in the text stream, like £, €, ©
+* +Symbol© = independent symbols in the text stream, like £, €, ©
  * +ACR   = Acronyms
 
 
@@ -895,7 +845,57 @@ nouns, but with a colon (':') as separator.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/affixes/propernouns.lexc)</small># Alphabet
+
+
+
+
+
+
+# Rules
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/phonology.twolc)</small>Prefixes
+Prefixes in the Cherokee language are bound to beginning of other words.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/prefixes.lexc)</small>Nouns
+Nouns in the Cherokee language are things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
+Adjectives in the Cherokee language describe things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/adjectives.lexc)</small>Pronouns
+Pronouns in the Cherokee language are references to things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/pronouns.lexc)</small>Verbs
+SIGH
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
+Numerals in the Cherokee language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/stems/numerals.lexc)</small>
 
 
 We describe here how abbreviations are in Cherokee are read out, e.g.
