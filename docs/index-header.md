@@ -13,7 +13,7 @@ and their morphology.
 # Project documentation
 
 * [A list of morphological tags](/lang/common/MorphologicalTags.html)
-* [Standardisation issues](StandardisationIssues.html)
+* [Standardisation issues](StandardisationIssues.md)
 
 # In-source documentation
 
