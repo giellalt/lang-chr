@@ -7,9 +7,13 @@
 
 This page documents the work on the [Cherokee language model](https://github.com/giellalt/lang-chr). 
 
+It contains an experimental setup of ca. 130 verbs
+and their morphology.
+
 # Project documentation
 
-* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
+* [A list of morphological tags](/lang/common/MorphologicalTags.html)
+* [Standardisation issues](StandardisationIssues.html)
 
 # In-source documentation
 
