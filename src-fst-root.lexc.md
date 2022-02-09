@@ -52,11 +52,6 @@ The nominals are inflected in the following Number
 
 The verbs can have the following morphological features:
 
-
-
-
-
-
 * +Fut    =
 * +FutImp    =
 * +Hab    =
@@ -82,7 +77,6 @@ Verb prefixes
 * @U.prefix.Idl@    =
 * @U.prefix.Ipl@    =
 
-
 The TAM flags
 * @U.TAM.Present@      = 
 * @U.TAM.Habitual@     = 
@@ -94,15 +88,9 @@ The TAM flags
 * @U.TAM.PrsImp@       = 
 * @U.TAM.Infinitive@   = 
 
-
-
-
-
-
 * +ABBR  = Abbreviations
 * +Symbol = independent symbols in the text stream, like £, €, ©
 * +ACR   = Acronyms
-
 
 Special symbols are classified with:
 * +CLB    = Clause boundary symbols
@@ -120,10 +108,13 @@ Special multiword units are analysed with:
 Non-dictionary words can be recognised with:
 *  +Guess  
 
-
-
 The word forms in Cherokee start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 *   VerbPrefixes   ;     
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-chr/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-chr/blob/main/src/fst/root.lexc)</small>
+
+---
+
