@@ -4,6 +4,8 @@ The Cherokee morphology and tools
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-chr)](https://github.com/giellalt/lang-chr/issues)
 [![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-chr/main/badge.svg)](https://github.com/giellalt/lang-chr/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-chr)](https://github.com/giellalt/lang-chr/blob/main/LICENSE)
+[![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-chr?platform=desktop&channel=nightly)
+[![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-chr?platform=mbile&channel=nightly)
 
 This repository contains finite state source files for the Cherokee language,
 for building morphological analysers, proofing tools
