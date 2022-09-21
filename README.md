@@ -30,7 +30,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/chr/CherokeeDocumentation.html>
+- [Language specific documentation](https://giellalt.github.io/lang-chr/)
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
