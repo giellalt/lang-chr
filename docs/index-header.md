@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/lang-chr)](https://github.com/giellalt/lang-chr/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-chr)](https://github.com/giellalt/lang-chr/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-chr/main/badge.svg)](https://github.com/giellalt/lang-chr/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-chr/main/badge.svg)](https://github.com/giellalt/lang-chr/actions)
 
 This page documents the work on the [Cherokee language model](https://github.com/giellalt/lang-chr). 
 
