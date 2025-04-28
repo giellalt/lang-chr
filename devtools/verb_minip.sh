@@ -15,8 +15,8 @@ PATTERN=$1
 L_FILE="in.txt"
 cut -d '!' -f1 src/fst/morphology/stems/verbs.lexc | egrep $PATTERN | tr '+' ':' | cut -d ':' -f1>$L_FILE
 
-P_FILE="test/data/testverbprefix.txt"
- S_FILE="test/data/testverbsuffix.txt" # todo: suffix
+P_FILE="src/fst/morphology/test/testverbprefix.txt"
+ S_FILE="src/fst/morphology/test/testverbsuffix.txt" # todo: suffix
 
 for lemma in $(cat $L_FILE);
 do
