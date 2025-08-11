@@ -96,7 +96,7 @@ Special symbols are classified with:
 * +CLB    = Clause boundary symbols
 * +PUNCT  = Other punctuation marks
 * +LEFT   = Left part of paired symbols
-* +RIGHT  = Right part of paired symbols
+* +RIGHT +MIDDLE  = Right part of paired symbols
 
 The verbs are syntactically split according to transitivity:
 * +TV  
