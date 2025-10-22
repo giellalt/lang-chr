@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-chr)](https://github.com/giellalt/lang-chr/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-chr)](https://github.com/giellalt/lang-chr/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-chr?label=CI)](https://builds.giellalt.org/pipelines/lang-chr/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/cher1273)
 
 This page documents the work on the [Cherokee language model](https://github.com/giellalt/lang-chr). 
 
